@@ -1,0 +1,18 @@
+.header__search {
+    background-color: rgba(125, 205, 215, 1);
+    border: 0;
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../../images/Search-Vector.svg);
+}
+
+@media screen and (max-width: 1024px) {
+    .header__search {
+    display: none;
+    }
+}

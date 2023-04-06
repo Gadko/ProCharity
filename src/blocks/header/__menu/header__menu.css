@@ -1,0 +1,13 @@
+.header__menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+
+    color: #fff;
+}
+

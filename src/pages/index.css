@@ -2,3 +2,17 @@
 @import url(../../vendor/normalize.css);
 
 @import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__nav-container/header__nav-container.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__nav/header__nav.css);
+@import url(../blocks/header/__search/header__search.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__button-container/header__button-container.css);
+@import url(../blocks/header/__button-join/header__button-join.css);
+@import url(../blocks/header/__button-user/header__button-user.css);
+@import url(../blocks/header/__button-img/header__button-img.css);
+@import url(../blocks/header/__burger/header__burger.css);

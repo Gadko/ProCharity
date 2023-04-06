@@ -1,0 +1,10 @@
+.header__button-img {
+    width: 12px;
+    height: 12px;
+    margin-right: 6px;
+}
+@media screen and (max-width: 1024px) {
+    .header__button-img {
+        margin-right: 2px;
+    }
+}
