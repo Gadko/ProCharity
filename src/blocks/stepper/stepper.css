@@ -1,0 +1,16 @@
+.stepper {
+  border: 1px solid #E3E9F0;
+  border-radius: 4px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 256px;
+  gap: 16px;
+  counter-reset: section;
+}
+
+@media (max-width:500px) {
+  .stepper {
+    display: none;
+  }
+}

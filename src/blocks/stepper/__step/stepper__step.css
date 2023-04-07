@@ -1,0 +1,39 @@
+.stepper__step {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #58646A;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.stepper__step::before {
+  counter-increment: section;
+  content: counter(section);
+  width: 32px;
+  height: 32px;
+  background: #72D0DC;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.stepper__step:hover {
+  opacity: 0.5;
+}

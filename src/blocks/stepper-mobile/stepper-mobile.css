@@ -1,0 +1,12 @@
+.stepper-mobile {
+  display: none;
+  gap: 8px;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+@media (max-width:500px) {
+  .stepper-mobile {
+    display: flex;
+  }
+}
