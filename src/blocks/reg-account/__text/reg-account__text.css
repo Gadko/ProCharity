@@ -1,0 +1,20 @@
+.reg-account__text{
+    margin: 0;
+    padding: 0 0 40px;
+    max-width: 368px;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    z-index: 2;
+}
+
+@media screen and (max-width: 615px) {
+    .reg-account__text  {
+        max-width: 315px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
