@@ -1,0 +1,9 @@
+.main-btns {
+    border: none;
+    margin: 32px 0 0;
+    padding: 0;
+    max-height: fit-content;
+
+    display: flex;
+    justify-content: space-between;
+}

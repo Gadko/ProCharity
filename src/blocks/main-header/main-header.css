@@ -1,0 +1,11 @@
+.main-header {
+    font-family: Arial;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+    max-width: fit-content;
+    margin: 0 auto 24px 0;
+    color: #374045;
+}

@@ -1,0 +1,7 @@
+.input-question {
+    position: absolute;
+    max-width: 24px;
+    max-height: 24px;
+    top: 12px;
+    right: 12px;
+}

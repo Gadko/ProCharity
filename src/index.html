@@ -8,9 +8,34 @@
     <link rel="alternate" hreflang="Ru" href="#" />
   </head>
   <body class="page">
-    <main>
-
-
+      <main class="main">
+        <h1 class="main-header">Контактное лицо</h1>
+        <form class="main-form">
+          <p class="main-paragraph">Волонтеры увидят эти данные на странице НКО и в ваших заданиях</p>
+          <fieldset class="main-fieldset">
+            <input type="text" class="fieldset-input-text" placeholder="Имя">
+            <input type="text" class="fieldset-input-text" placeholder="Фамилия">
+            <input type="text" class="fieldset-input-text" placeholder="ИНН фонда">
+            <input type="text" class="fieldset-input-text" placeholder="Должность">
+          </fieldset>
+          <p class="main-paragraph">Волонтеры не увидят эти данные. Будем использовать их, если понадобится уточнить детали или рассказать об изменениях на платформе.</p>
+          <fieldset class="main-fieldset">
+            <input type="text" class="fieldset-input-text" placeholder="Электронная почта">
+            <div class="input-text-with-addition"><input type="text" class="fieldset-input-text" placeholder="Ник в Telegram">
+              <img class="input-question" src="<%=require('./images/question.png')%>"></div>
+          </fieldset>
+          <p class="main-paragraph">Пароль должен содержать не менее 8 знаков и может включать латинские буквы, цифры и специальные символы</p>
+          <fieldset class="main-fieldset">
+            <div class="input-text-with-addition"><input type="password" class="fieldset-input-text" placeholder="Пароль">
+              <img class="input-hide-show-text" src="<%=require('./images/eye.png')%>"></div>
+            <div class="input-text-with-addition"><input type="password" class="fieldset-input-text" placeholder="Подтвердите пароль">
+              <img class="input-hide-show-text" src="<%=require('./images/eye.png')%>"></div>
+          </fieldset>
+          <fieldset class="main-btns">
+            <button type="submit" class="main-btn main-btn__registration">Зарегистрироваться</button>
+            <button type="reset" class="main-btn main-btn__reset">Отмена</button>
+          </fieldset>
+        </form>
     </main>
   </body>
 </html>

@@ -2,3 +2,19 @@
 @import url(../../vendor/normalize.css);
 
 @import url(../blocks/page/page.css);
+
+@import url(../blocks/main/main.css);
+@import url(../blocks/main/main.css);
+
+@import url(../blocks/main-paragraph/main-paragraph.css);
+@import url(../blocks/main-header/main-header.css);
+@import url(../blocks/main-form/main-form.css);
+@import url(../blocks/main-fieldset/main-fieldset.css);
+@import url(../blocks/main-btns/main-btns.css);
+@import url(../blocks/main-btn/main-btn.css);
+@import url(../blocks/main-btn/__registration/main-btn__registration.css);
+@import url(../blocks/main-btn/__reset/main-btn__reset.css);
+@import url(../blocks/input-text-with-addition/input-text-with-addition.css);
+@import url(../blocks/input-question/input-question.css);
+@import url(../blocks/input-hide-show-text/input-hide-show-text.css);
+@import url(../blocks/fieldset-input-text/fieldset-input-text.css);
