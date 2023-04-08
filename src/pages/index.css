@@ -2,3 +2,20 @@
 @import url(../../vendor/normalize.css);
 
 @import url(../blocks/page/page.css);
+
+
+@import url(../blocks/stepper/stepper.css);
+@import url(../blocks/stepper/__step/stepper__step.css);
+@import url(../blocks/stepper/__registration/stepper__registration.css);
+@import url(../blocks/stepper/__step/_disabled/stepper__step_disabled.css);
+@import url(../blocks/stepper/__step/_active/stepper__step_active.css);
+
+@import url(../blocks/stepper-mobile/stepper-mobile.css);
+@import url(../blocks/stepper-mobile/__steps/stepper-mobile__steps.css);
+@import url(../blocks/stepper-mobile/__step/stepper-mobile__step.css);
+@import url(../blocks/stepper-mobile/__step/_active/stepper-mobile__step_active.css);
+@import url(../blocks/stepper-mobile/__step/_disabled/stepper-mobile__step_disabled.css);
+@import url(../blocks/stepper-mobile/__step-registration/stepper-mobile__step-registration.css);
+@import url(../blocks/stepper-mobile/__description/stepper-mobile__description.css);
+@import url(../blocks/stepper-mobile/__description-name/stepper-mobile__description-name.css);
+@import url(../blocks/stepper-mobile/__description-step/stepper-mobile__description-step.css);
