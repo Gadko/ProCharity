@@ -1,0 +1,17 @@
+.reg-account__element_fund{
+    padding-left: 13.59%;
+    text-align: left;
+    border-radius: 6px 0 0 6px;
+}
+
+@media screen and (max-width: 1120px) {
+    .reg-account__element_fund  {
+        padding-left: 24px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .reg-account__element_fund  {
+        border-radius: 6px 6px 0 0;
+    }
+}

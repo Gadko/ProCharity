@@ -1,0 +1,31 @@
+.reg-account__image{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    min-width: 318px;
+    min-height: 480px;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+@media screen and (max-width: 1400px){
+    .reg-account__image  {
+        min-width: 250px;
+        min-height: 350px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .reg-account__image  {
+        min-width: 318px;
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 615px){
+    .reg-account__image  {
+        min-width: 122px;
+        min-height: 248px;
+    }
+}
+
