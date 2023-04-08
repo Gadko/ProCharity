@@ -2,10 +2,10 @@
   display: none;
   gap: 8px;
   flex-direction: column;
-  max-width: 500px;
+  max-width: 1024px;
 }
 
-@media (max-width:500px) {
+@media (max-width:1024px) {
   .stepper-mobile {
     display: flex;
   }

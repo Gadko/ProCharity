@@ -9,7 +9,7 @@
   counter-reset: section;
 }
 
-@media (max-width:500px) {
+@media (max-width:1024px) {
   .stepper {
     display: none;
   }
