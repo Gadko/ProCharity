@@ -1,0 +1,8 @@
+.stepper-mobile__step {
+  border: none;
+  padding: 0;
+  width: 100%;
+  height: 8px;
+  background-color: #72D0DC;
+  border-radius: 4px;
+}
