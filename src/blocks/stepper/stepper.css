@@ -4,7 +4,9 @@
   padding: 20px;
   display: flex;
   flex-direction: column;
-  max-width: 256px;
+  width: 256px;
+  height: max-content;
+  margin-top: 64px;
   gap: 16px;
   counter-reset: section;
 }

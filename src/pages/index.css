@@ -6,6 +6,8 @@
 
 @import url(../blocks/link/link.css);
 
+@import url(../blocks/registration-volunteer/registration-volunteer.css);
+
 @import url(../blocks/main/__paragraph/main__paragraph.css);
 @import url(../blocks/main/__header/main__header.css);
 @import url(../blocks/main/__form/main__form.css);
