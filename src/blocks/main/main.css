@@ -1,14 +1,15 @@
 .main {
     display: flex;
     flex-direction: row;
-    margin: 64px auto 120px 32px;
+    margin: 64px 32px 120px 32px;
     max-width: 736px;
     flex-direction: column;
 }
 
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 580px)
 {
     .main {
         flex-direction: column;
+        max-width: calc(100% - 48px);
     }
 }

@@ -2,19 +2,28 @@
 @import url(../../vendor/normalize.css);
 
 @import url(../blocks/page/page.css);
-
-@import url(../blocks/main/main.css);
 @import url(../blocks/main/main.css);
 
-@import url(../blocks/main-paragraph/main-paragraph.css);
-@import url(../blocks/main-header/main-header.css);
-@import url(../blocks/main-form/main-form.css);
-@import url(../blocks/main-fieldset/main-fieldset.css);
-@import url(../blocks/main-btns/main-btns.css);
-@import url(../blocks/main-btn/main-btn.css);
-@import url(../blocks/main-btn/__registration/main-btn__registration.css);
-@import url(../blocks/main-btn/__reset/main-btn__reset.css);
-@import url(../blocks/input-text-with-addition/input-text-with-addition.css);
-@import url(../blocks/input-question/input-question.css);
-@import url(../blocks/input-hide-show-text/input-hide-show-text.css);
-@import url(../blocks/fieldset-input-text/fieldset-input-text.css);
+@import url(../blocks/link/link.css);
+
+@import url(../blocks/main/__paragraph/main__paragraph.css);
+@import url(../blocks/main/__header/main__header.css);
+@import url(../blocks/main/__form/main__form.css);
+@import url(../blocks/main/__fieldset/main__fieldset.css);
+@import url(../blocks/main/__btns/main__btns.css);
+
+@import url(../blocks/btn/btn.css);
+@import url(../blocks/btn/__registration/btn__registration.css);
+@import url(../blocks/btn/__reset/btn__reset.css);
+@import url(../blocks/btn/_status_disabled/btn_status_disabled.css);
+
+@import url(../blocks/input-text/__addition/input-text__addition.css);
+@import url(../blocks/input-text/__two-additions-grid/input-text__two-additions-grid.css);
+@import url(../blocks/input-text/__question/input-text__question.css);
+@import url(../blocks/input-text/__hide-show-text/input-text__hide-show-text.css);
+@import url(../blocks/input-text/__delete/input-text__delete.css);
+@import url(../blocks/input-text/input-text.css);
+
+@import url(../blocks/checkbox/checkbox.css);
+@import url(../blocks/checkbox/__checkbox-hidden/checkbox__checkbox-hidden.css);
+@import url(../blocks/checkbox/__checkbox-on-screen/checkbox__checkbox-on-screen.css);

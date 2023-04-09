@@ -1,4 +1,4 @@
-.main-paragraph {
+.main__paragraph {
     font-family: Arial;
     font-size: 16px;
     font-weight: 400;
@@ -9,6 +9,6 @@
     color: #58646A;
 }
 
-.main-paragraph:first-of-type {
+.main__paragraph:first-of-type {
     margin-top: 0;
 }

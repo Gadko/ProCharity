@@ -1,9 +1,9 @@
-.fieldset-input-text {
+.input-text {
     padding: 12px 16px;
     background: #F1F5F9;
     border: none;
     border-radius: 6px;
-    min-width: 326px;
+    min-width: calc(100% - 32px);
 
     font-family: 'Arial';
     font-style: normal;

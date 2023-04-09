@@ -1,4 +1,4 @@
-.main-header {
+.main__header {
     font-family: Arial;
     font-size: 32px;
     font-weight: 700;
@@ -8,4 +8,10 @@
     max-width: fit-content;
     margin: 0 auto 24px 0;
     color: #374045;
+}
+
+@media screen and (max-width: 580px) {
+    .main__header {
+        margin: 0 auto 20px 0;
+    }
 }

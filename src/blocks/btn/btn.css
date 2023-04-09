@@ -1,4 +1,4 @@
-.main-btn {
+.btn {
     cursor: pointer;
     font-family: 'Helvetica';
     font-style: normal;
@@ -11,4 +11,13 @@
     text-transform: uppercase;
     border-radius: 6px;
     padding: 20px 32px;
+    width: 100%;
+    justify-content: center;
+    max-width: fit-content;
+}
+
+@media screen and (max-width: 580px) {
+    .btn {
+        max-width: 100%;
+    }
 }

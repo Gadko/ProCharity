@@ -9,31 +9,41 @@
   </head>
   <body class="page">
       <main class="main">
-        <h1 class="main-header">Контактное лицо</h1>
-        <form class="main-form">
-          <p class="main-paragraph">Волонтеры увидят эти данные на странице НКО и в ваших заданиях</p>
-          <fieldset class="main-fieldset">
-            <input type="text" class="fieldset-input-text" placeholder="Имя">
-            <input type="text" class="fieldset-input-text" placeholder="Фамилия">
-            <input type="text" class="fieldset-input-text" placeholder="ИНН фонда">
-            <input type="text" class="fieldset-input-text" placeholder="Должность">
+        <h1 class="main__header">Контактное лицо</h1>
+        <form class="main__form">
+          <p class="main__paragraph">Регистрация нового волонтера</p>
+          <fieldset class="main__fieldset">
+            <div class="input-text__addition"><input type="text" class="input-text" placeholder="Имя"></div>
+            <div class="input-text__addition"><input type="text" class="input-text" placeholder="Фамилия">
+              <img class="input-text__delete" src="<%=require('./images/delete.png')%>"></div>
           </fieldset>
-          <p class="main-paragraph">Волонтеры не увидят эти данные. Будем использовать их, если понадобится уточнить детали или рассказать об изменениях на платформе.</p>
-          <fieldset class="main-fieldset">
-            <input type="text" class="fieldset-input-text" placeholder="Электронная почта">
-            <div class="input-text-with-addition"><input type="text" class="fieldset-input-text" placeholder="Ник в Telegram">
-              <img class="input-question" src="<%=require('./images/question.png')%>"></div>
+          <p class="main__paragraph">Контакты будут видны фондам, которые выберут тебя исполнителем задания</p>
+          <fieldset class="main__fieldset">
+            <div class="input-text__addition"><input type="text" class="input-text" placeholder="Email"></div>
+            <div class="input-text__addition"><input type="text" class="input-text" placeholder="Ник в Telegram">
+              <div class="input-text__two-additions-grid">
+                <img class="input-text__delete" src="<%=require('./images/delete.png')%>"> <!-- Долго мучался чтобы можно было просто потом добавлять и менять местами что нужно в верстке-->
+                <img class="input-text__question" src="<%=require('./images/question.png')%>">
+              </div>
+            </div>
           </fieldset>
-          <p class="main-paragraph">Пароль должен содержать не менее 8 знаков и может включать латинские буквы, цифры и специальные символы</p>
-          <fieldset class="main-fieldset">
-            <div class="input-text-with-addition"><input type="password" class="fieldset-input-text" placeholder="Пароль">
-              <img class="input-hide-show-text" src="<%=require('./images/eye.png')%>"></div>
-            <div class="input-text-with-addition"><input type="password" class="fieldset-input-text" placeholder="Подтвердите пароль">
-              <img class="input-hide-show-text" src="<%=require('./images/eye.png')%>"></div>
+          <p class="main__paragraph">Пароль должен содержать не менее 8 знаков и может включать латинские буквы, цифры и специальные символы</p>
+          <fieldset class="main__fieldset">
+            <div class="input-text__addition"><input type="password" class="input-text" placeholder="Пароль">
+              <img class="input-text__hide-show-text" src="<%=require('./images/eye.png')%>"></div>
+            <div class="input-text__addition"><input type="password" class="input-text" placeholder="Подтвердите пароль">
+              <img class="input-text__hide-show-text" src="<%=require('./images/eye.png')%>"></div>
           </fieldset>
-          <fieldset class="main-btns">
-            <button type="submit" class="main-btn main-btn__registration">Зарегистрироваться</button>
-            <button type="reset" class="main-btn main-btn__reset">Отмена</button>
+          <fieldset class="main__fieldset">
+            <div class="checkbox">
+              <input type="checkbox" class="checkbox__checkbox-hidden" id="checkbox1" required>
+                <label for="checkbox1" class="checkbox__checkbox-on-screen"></label>
+              <span>Соглашаюсь с <a class="link" href="https://procharity.ru/legal_information.php">правилами сайта</a></span>
+            </div>
+          </fieldset>
+          <fieldset class="main__btns">
+            <button type="submit" class="btn btn__registration btn_status_disabled">Зарегистрироваться</button>
+            <button type="reset" class="btn btn__reset">Отмена</button>
           </fieldset>
         </form>
     </main>
