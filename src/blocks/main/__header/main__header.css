@@ -1,0 +1,17 @@
+.main__header {
+    font-family: Arial;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: left;
+    max-width: fit-content;
+    margin: 0 auto 24px 0;
+    color: #374045;
+}
+
+@media screen and (max-width: 1024px) {
+    .main__header {
+        margin: 0 auto 20px 0;
+    }
+}

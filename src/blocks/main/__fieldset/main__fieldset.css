@@ -1,0 +1,17 @@
+.main__fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+    max-height: fit-content;
+
+    display: grid;
+    grid-template: 1fr / repeat(2, 1fr);
+    grid-auto-flow: row;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    .main__fieldset {
+        grid-template: 2fr / 1fr;
+    }
+}
