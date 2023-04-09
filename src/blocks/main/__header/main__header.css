@@ -10,7 +10,7 @@
     color: #374045;
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 1024px) {
     .main__header {
         margin: 0 auto 20px 0;
     }
