@@ -1,0 +1,11 @@
+.registration-volunteer {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:1024px) {
+    .registration-volunteer {
+      display: block;
+      margin-top: 24px;;
+    }
+  }
