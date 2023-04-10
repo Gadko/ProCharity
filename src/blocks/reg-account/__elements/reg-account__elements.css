@@ -1,0 +1,29 @@
+.reg-account__elements{
+    margin: 0;
+    padding: 64px 0 64px;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-auto-rows: 1fr;
+    gap: 32px;
+    align-self: normal;
+}
+
+@media screen and (max-width: 1024px) {
+    .reg-account__elements  {
+        grid-template-columns: 1fr;
+        gap: 4px;
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .reg-account__elements  {
+        padding-top: 32px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .reg-account__elements  {
+        max-width: 360px;
+    }
+}
