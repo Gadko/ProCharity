@@ -1,4 +1,12 @@
 @import url(../../vendor/fonts.css);
 @import url(../../vendor/normalize.css);
-
 @import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+
+@import url(../blocks/regemailinfo/regemailinfo.css);
+@import url(../blocks/regemailinfo/__holder/regemailinfo__holder.css);
+@import url(../blocks/regemailinfo/__email/regemailinfo__email.css);
+@import url(../blocks/regemailinfo//__header/regemailinfo__header.css);
+@import url(../blocks/regemailinfo/__image/regemailinfo__image.css);
+@import url(../blocks/regemailinfo/__text-holder/regemailinfo__text-holder.css);
+@import url(../blocks/regemailinfo/__text/regemailinfo__text.css);
