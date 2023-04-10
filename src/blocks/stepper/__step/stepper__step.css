@@ -2,6 +2,8 @@
   background-color: transparent;
   border: none;
   padding: 0;
+  margin: 0;
+  text-decoration: none;
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -36,4 +38,14 @@
 
 .stepper__step:hover {
   opacity: 0.5;
+}
+
+@media (max-width:1024px) {
+  .stepper__step {
+    font-size: 0;
+    line-height: 0;
+  }
+  .stepper__step::before {
+    display: none;
+  }
 }
