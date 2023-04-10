@@ -1,12 +1,31 @@
 @import url(../../vendor/fonts.css);
 @import url(../../vendor/normalize.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/_color/page_color_gray.css);
+
+@import url(../blocks/reg-account/reg-account.css);
+@import url(../blocks/reg-account/__heading/reg-account__heading.css);
+@import url(../blocks/reg-account/__caption/reg-account__caption.css);
+@import url(../blocks/reg-account/__element/reg-account__element.css);
+@import url(../blocks/reg-account/__element/_volunteer/reg-account__element_volunteer.css);
+@import url(../blocks/reg-account/__element/_fund/reg-account__element_fund.css);
+@import url(../blocks/reg-account/__element/_fund/reg-account__element_fund.css);
+@import url(../blocks/reg-account/__link/reg-account__link.css);
+@import url(../blocks/reg-account/__text/reg-account__text.css);
+@import url(../blocks/reg-account/__text-link/reg-account__text-link.css);
+@import url(../blocks/reg-account/__title/reg-account__title.css);
+@import url(../blocks/reg-account/__elements/reg-account__elements.css);
+@import url(../blocks/reg-account/__caption-link/reg-account__caption-link.css);
+@import url(../blocks/reg-account/__image/reg-account__image.css);
+@import url(../blocks/reg-account/__image/_fund/reg-account__image_fund.css);
+@import url(../blocks/reg-account/__image/_volunteer/reg-account__image_volunteer.css);
+@import url(../blocks/reg-account/__element-link/reg-account__element-link.css);
 
 
 @import url(../blocks/regemailinfo/regemailinfo.css);
 @import url(../blocks/regemailinfo/__holder/regemailinfo__holder.css);
 @import url(../blocks/regemailinfo/__email/regemailinfo__email.css);
-@import url(../blocks/regemailinfo//__header/regemailinfo__header.css);
+/*@import url(../blocks/regemailinfo//__header/regemailinfo__header.css);*/
 @import url(../blocks/regemailinfo/__image/regemailinfo__image.css);
 @import url(../blocks/regemailinfo/__text-holder/regemailinfo__text-holder.css);
 @import url(../blocks/regemailinfo/__text/regemailinfo__text.css);
