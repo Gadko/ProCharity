@@ -54,4 +54,5 @@
 @import url(../blocks/stepper-mobile/__step/_disabled/stepper-mobile__step_disabled.css);
 @import url(../blocks/stepper-mobile/__step-registration/stepper-mobile__step-registration.css);
 @import url(../blocks/stepper-mobile/__description/stepper-mobile__description.css);
+@import url(../blocks/stepper-mobile/__description-step/stepper-mobile__description-step.css);
 @import url(../blocks/stepper-mobile/__description-name/stepper-mobile__description-name.css);
