@@ -2,6 +2,7 @@
 @import url(../../vendor/normalize.css);
 
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/_color/page_color_gray.css);
 
 @import url(../blocks/reg-account/reg-account.css);
 @import url(../blocks/reg-account/__heading/reg-account__heading.css);
@@ -19,3 +20,4 @@
 @import url(../blocks/reg-account/__image/reg-account__image.css);
 @import url(../blocks/reg-account/__image/_fund/reg-account__image_fund.css);
 @import url(../blocks/reg-account/__image/_volunteer/reg-account__image_volunteer.css);
+@import url(../blocks/reg-account/__element-link/reg-account__element-link.css);

@@ -9,7 +9,12 @@
     text-decoration: none;
     color: rgba(125, 205, 215, 1);
     max-width: 368px;
-    z-index: 2;
+}
+
+@media screen and (min-width: 1025px) {
+    .reg-account__link  {
+        pointer-events: none;
+    }
 }
 
 @media screen and (max-width: 361px) {
