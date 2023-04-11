@@ -1,0 +1,21 @@
+.reg-account__title{
+    margin: 0;
+    padding: 64px 0 28px;
+    font-family: Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 36px;
+    max-width: 368px;
+}
+
+@media screen and (max-width: 615px) {
+    .reg-account__title  {
+        padding-top: 48px;
+        padding-bottom: 16px;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.5px;
+        max-width: 264px;
+    }
+}

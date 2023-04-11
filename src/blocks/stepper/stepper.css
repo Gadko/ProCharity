@@ -1,0 +1,24 @@
+.stepper {
+  list-style-type: none;
+  border: 1px solid #E3E9F0;
+  border-radius: 4px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 256px;
+  height: max-content;
+  gap: 16px;
+  counter-reset: section;
+  margin: 0;
+}
+
+@media (max-width:1024px) {
+  .stepper {
+    gap: 12px;
+    flex-direction: row;
+    border: none;
+    width: 100%;
+    padding: 0 0 8px 0; 
+    box-sizing: border-box;
+  }
+}
