@@ -9,7 +9,7 @@
     justify-content: space-between;
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 1024px) {
     .main__btns {
         display: grid;
         gap: 16px;

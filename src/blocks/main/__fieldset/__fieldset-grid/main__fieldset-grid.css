@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .main__fieldset {
+    .main__fieldset-grid {
         grid-template: 2fr / 1fr;
     }
 }

@@ -2,7 +2,5 @@
     position: relative;
     display: grid;
     grid-template: 24px / repeat(2, 24px);
-
-
     right: 24px;
 }
