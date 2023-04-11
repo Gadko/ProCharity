@@ -51,6 +51,10 @@ module.exports = {
       filename: 'reg-account.html',
       template: './src/reg-account.html'
     }),
+    new HtmlWebpackPlugin({
+      filename: 'reg-email-info.html',
+      template: './src/reg-email-info.html'
+    }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
 

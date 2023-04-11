@@ -42,7 +42,7 @@
 @import url(../blocks/main/__header/main__header.css);
 @import url(../blocks/main/__form/main__form.css);
 @import url(../blocks/main/__fieldset/main__fieldset.css);
-@import url(../blocks/main/__fieldset/__fieldset-grid/main__fieldset-grid.css);
+@import url(../blocks/main/__fieldset-item/main__fieldset-item.css);
 @import url(../blocks/main/__btns/main__btns.css);
 
 @import url(../blocks/btn/btn.css);
