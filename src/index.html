@@ -45,11 +45,29 @@
             </li>
           </ul>
           <div class="stepper__mobile-description">
-            <p class="stepper__mobile-description-name">
-              Регистрация волонтера
-            </p>
+            <p class="stepper__mobile-description-name">Регистрация волонтера</p>
             <p class="stepper__mobile-description-step">Шаг 1 из 5</p>
           </div>
+          <!--Статус. Меняется при добавлении соответствующих модификаторов для status__container и status__text. На этой странице не нужен, но я добавил пока что сюда, что бы использовать на других страницах-->
+          <div class="status status_dusabled">
+            <h3 class="status__title">Статус профиля</h3>
+            <div class="status__container status__container_blue">
+                <p class="status__text status__text_edits"></p>
+                <button class="status__question"></button>
+            </div>
+          </div>
+          <!--Прогресс бар,на этой странице не нужен, но я добавил пока что сюда, что бы использовать на других страницах-->
+          <div class="progress progress_dusabled">
+            <h3 class="progress__title">Профиль заполнен на 66%</h3>
+            <div class="progress__bar">
+                <div class="progress__fullness"></div>
+            </div>
+            <p class="progress__description">Узнай, <span>
+                <a class="progress__link" href="#">как заполнить профиль,</a>
+            </span> 
+            чтобы тебя выбрали исполнителем</p>
+          </div> 
+          <!--Конец блока статуса и прогресс бара.-->
         </div>
         <div class="main">
           <h1 class="main__header">Регистрация нового волонтера</h1>
@@ -163,6 +181,15 @@
             </fieldset>
           </form>
         </div>
+        <!--Блок статуса для мобильной версии, скрывается при добавлении status_dusabled. На этой странице не нужен, но я добавил пока что сюда, что бы потом использовать на других страницах.-->
+        <div class="status status_mobile status_dusabled">
+            <h3 class="status__title">Статус профиля</h3>
+            <div class="status__container status__container_blue">
+                <p class="status__text status__text_edits"></p>
+                <button class="status__question"></button>
+            </div>
+        </div>
+        <!--Конец блока статуса для моб. версии-->
       </section>
     </main>
   </body>

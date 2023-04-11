@@ -1,0 +1,3 @@
+.status__text_moderation::before {
+    content: "на модерации";
+}

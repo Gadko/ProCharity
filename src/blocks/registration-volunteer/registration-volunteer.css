@@ -8,5 +8,6 @@
 @media (max-width:1024px) {
     .registration-volunteer {
       display: block;
+      padding-top: 24px;
     }
   }
