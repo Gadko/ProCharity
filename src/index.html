@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ru">
   <head>
@@ -14,12 +13,13 @@
         <div class="sidebar">
           <ul class="stepper">
             <li class="stepper__step-mobile stepper__step-registration">
-              <p class="stepper__step stepper__registration">
-                Регистрация
-              </p>
+              <p class="stepper__step stepper__registration">Регистрация</p>
             </li>
             <li class="stepper__step-mobile stepper__step-mobile_disabled">
-              <a href="#" class="stepper__step stepper__step_disabled stepper__step-start">
+              <a
+                href="#"
+                class="stepper__step stepper__step_disabled stepper__step-start"
+              >
                 Личные данные
               </a>
             </li>
@@ -73,38 +73,111 @@
           <h1 class="main__header">Регистрация нового волонтера</h1>
           <form class="main__form">
             <p class="main__paragraph">Регистрация нового волонтера</p>
-            <fieldset class="main__fieldset">
-              <div class="input-text__addition"><input type="text" class="input-text" placeholder="Имя"></div>
-              <div class="input-text__addition"><input type="text" class="input-text" placeholder="Фамилия">
-                <img class="input-text__delete" src="<%=require('./images/delete.png')%>"></div>
+            <fieldset class="main__fieldset main__fieldset-grid">
+              <div class="input-text">
+                <input
+                  type="text"
+                  class="input-text__textfield"
+                  placeholder="Имя"
+                  required
+                />
+              </div>
+              <div class="input-text">
+                <input
+                  type="text"
+                  class="input-text__textfield"
+                  placeholder="Фамилия"
+                  required
+                />
+                <button
+                  aria-label="Очистить"
+                  class="input-text__delete"
+                ></button>
+              </div>
             </fieldset>
-            <p class="main__paragraph">Контакты будут видны фондам, которые выберут тебя исполнителем задания</p>
-            <fieldset class="main__fieldset">
-              <div class="input-text__addition"><input type="text" class="input-text" placeholder="Email"></div>
-              <div class="input-text__addition"><input type="text" class="input-text" placeholder="Ник в Telegram">
+            <p class="main__paragraph">
+              Контакты будут видны фондам, которые выберут тебя исполнителем
+              задания
+            </p>
+            <fieldset class="main__fieldset main__fieldset-grid">
+              <div class="input-text">
+                <input
+                  type="text"
+                  class="input-text__textfield"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+              <div class="input-text">
+                <input
+                  type="text"
+                  class="input-text__textfield"
+                  placeholder="Ник в Telegram"
+                  required
+                />
                 <div class="input-text__two-additions-grid">
-                  <img class="input-text__delete" src="<%=require('./images/delete.png')%>"> <!-- Долго мучался чтобы можно было просто потом добавлять и менять местами что нужно в верстке-->
-                  <img class="input-text__question" src="<%=require('./images/question.png')%>">
+                  <button
+                    aria-label="Очистить"
+                    class="input-text__delete"
+                  ></button>
+                  <button
+                    aria-label="Подсказка"
+                    class="input-text__question"
+                  ></button>
                 </div>
               </div>
             </fieldset>
-            <p class="main__paragraph">Пароль должен содержать не менее 8 знаков и может включать латинские буквы, цифры и специальные символы</p>
-            <fieldset class="main__fieldset">
-              <div class="input-text__addition"><input type="password" class="input-text" placeholder="Пароль">
-                <img class="input-text__hide-show-text" src="<%=require('./images/eye.png')%>"></div>
-              <div class="input-text__addition"><input type="password" class="input-text" placeholder="Подтвердите пароль">
-                <img class="input-text__hide-show-text" src="<%=require('./images/eye.png')%>"></div>
+            <p class="main__paragraph">
+              Пароль должен содержать не менее 8 знаков и может включать
+              латинские буквы, цифры и специальные символы
+            </p>
+            <fieldset class="main__fieldset main__fieldset-grid">
+              <div class="input-text">
+                <input
+                  type="password"
+                  class="input-text__textfield"
+                  placeholder="Пароль"
+                  required
+                />
+                <button class="input-text__hide-show-text"></button>
+              </div>
+              <div class="input-text">
+                <input
+                  type="password"
+                  class="input-text__textfield"
+                  placeholder="Подтвердите пароль"
+                  required
+                />
+                <button class="input-text__hide-show-text"></button>
+              </div>
             </fieldset>
             <fieldset class="main__fieldset">
               <div class="checkbox">
-                <input type="checkbox" class="checkbox__checkbox-hidden" id="checkbox1" required>
-                  <label for="checkbox1" class="checkbox__checkbox-on-screen"></label>
-                <span>Соглашаюсь с <a class="link" href="https://procharity.ru/legal_information.php">правилами сайта</a></span>
+                <input
+                  type="checkbox"
+                  class="checkbox__checkbox-hidden"
+                  id="checkbox-hidden"
+                  required
+                />
+                <label
+                  for="checkbox-hidden"
+                  class="checkbox__checkbox-on-screen"
+                ></label>
+                <span
+                  >Соглашаюсь с
+                  <a class="link" href="#">правилами сайта</a></span
+                >
               </div>
             </fieldset>
             <fieldset class="main__btns">
-              <button type="submit" class="btn btn__registration btn_status_disabled">Зарегистрироваться</button>
-              <button type="reset" class="btn btn__reset">Отмена</button>
+              <button type="button" class="btn btn__reset">Назад</button>
+              <button
+                type="button"
+                class="btn btn__registration btn_status_disabled"
+                disabled
+              >
+                Зарегистрироваться
+              </button>
             </fieldset>
           </form>
         </div>
@@ -121,4 +194,3 @@
     </main>
   </body>
 </html>
-

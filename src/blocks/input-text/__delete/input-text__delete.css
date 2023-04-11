@@ -1,7 +1,13 @@
 .input-text__delete {
     position: relative;
-    max-width: 24px;
+    min-width: 24px;
     max-height: 24px;
     top: 12px;
     left: -36px;
+    padding: 0;
+    border: none;
+    background: none;
+    background-image: url(../../../images/delete.png);
+    background-position: center;
+    cursor: pointer;
 }
