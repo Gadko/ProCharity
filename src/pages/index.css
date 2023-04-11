@@ -42,6 +42,7 @@
 @import url(../blocks/main/__header/main__header.css);
 @import url(../blocks/main/__form/main__form.css);
 @import url(../blocks/main/__fieldset/main__fieldset.css);
+@import url(../blocks/main/__fieldset/__fieldset-grid/main__fieldset-grid.css);
 @import url(../blocks/main/__btns/main__btns.css);
 
 @import url(../blocks/btn/btn.css);
@@ -49,7 +50,7 @@
 @import url(../blocks/btn/__reset/btn__reset.css);
 @import url(../blocks/btn/_status_disabled/btn_status_disabled.css);
 
-@import url(../blocks/input-text/__addition/input-text__addition.css);
+@import url(../blocks/input-text/__textfield/input-text__textfield.css);
 @import url(../blocks/input-text/__two-additions-grid/input-text__two-additions-grid.css);
 @import url(../blocks/input-text/__question/input-text__question.css);
 @import url(../blocks/input-text/__hide-show-text/input-text__hide-show-text.css);

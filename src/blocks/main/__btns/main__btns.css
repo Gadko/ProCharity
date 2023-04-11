@@ -1,6 +1,7 @@
 .main__btns {
     border: none;
     margin: 32px auto 0;
+    gap: 30px;
     padding: 0;
     display: flex;
     max-height: fit-content;
@@ -8,7 +9,7 @@
     justify-content: space-between;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 560px) {
     .main__btns {
         display: grid;
         gap: 16px;
