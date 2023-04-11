@@ -1,4 +1,5 @@
 .stepper__step_disabled {
+  pointer-events: none;
   color: #7B878F;
   cursor: default;
 }

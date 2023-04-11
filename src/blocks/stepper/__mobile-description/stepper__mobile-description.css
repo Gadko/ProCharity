@@ -1,4 +1,10 @@
 .stepper__mobile-description {
-  display: flex;
-  justify-content: space-between;
+  display: none;
+}
+
+@media (max-width:1024px) {
+  .stepper__mobile-description {
+    display: flex;
+    justify-content: space-between;
+  }
 }
