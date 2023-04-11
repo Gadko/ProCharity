@@ -1,0 +1,10 @@
+.progress {
+    width: 256px;
+    height: 100px;
+}
+
+@media (max-width:1024px) {
+    .progress{
+      display: none;
+    }
+  }

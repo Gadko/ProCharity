@@ -74,3 +74,27 @@
 @import url(../blocks/stepper/__mobile-description/stepper__mobile-description.css);
 @import url(../blocks/stepper/__mobile-description-name/stepper__mobile-description-name.css);
 @import url(../blocks/stepper/__mobile-description-step/stepper__mobile-description-step.css);
+
+
+@import url(../blocks/status/status.css);
+@import url(../blocks/status/__container/status__container.css);
+@import url(../blocks/status/__question/status__question.css);
+@import url(../blocks/status/__text/status__text.css);
+@import url(../blocks/status/__title/status__title.css);
+@import url(../blocks/status/_dusabled/status_dusabled.css);
+@import url(../blocks/status/__text/_blocked/status__text_blocked.css);
+@import url(../blocks/status/__container/_orange/status__container_orange.css);
+@import url(../blocks/status/__text/_confirmed/status__text_confirmed.css);
+@import url(../blocks/status/__text/_private/status__text_private.css);
+@import url(../blocks/status/__container/_blue/status__container_blue.css);
+@import url(../blocks/status/__text/_moderation/status__text_moderation.css);
+@import url(../blocks/status/__text/_edits/status__text_edits.css);
+@import url(../blocks/status/_mobile/status_mobile.css);
+
+@import url(../blocks/progress/progress.css);
+@import url(../blocks/progress/__bar/progress__bar.css);
+@import url(../blocks/progress/__description/progress__description.css);
+@import url(../blocks/progress/__fullness/progress__fullness.css);
+@import url(../blocks/progress/__link/progress__link.css);
+@import url(../blocks/progress/__title/progress__title.css);
+@import url(../blocks/progress/_dusabled/progress_dusabled.css);
