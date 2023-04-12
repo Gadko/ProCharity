@@ -59,6 +59,10 @@ module.exports = {
       filename: 'social.html',
       template: './src/social.html'
     }),
+    new HtmlWebpackPlugin({
+      filename: 'motivation.html',
+      template: './src/motivation.html'
+    }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
 

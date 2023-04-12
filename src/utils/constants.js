@@ -1,0 +1,1 @@
+export const formTextarea = document.querySelectorAll('.input-text__textarea');
