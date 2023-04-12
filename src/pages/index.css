@@ -124,3 +124,21 @@
 @import url(../blocks/input-text/__hide-show-text/_hidden/input-text__hide-show-text_hidden.css);
 @import url(../blocks/main/_password-block/main_password-block.css);
 @import url(../blocks/main/__btns/_password-block/main__btns_password-block.css);
+
+@import url(../blocks/add-file/add-file.css);
+@import url(../blocks/add-file/__btn-text/add-file__btn-text.css);
+@import url(../blocks/add-file/__btn/add-file__btn.css);
+@import url(../blocks/add-file/__input/add-file__input.css);
+@import url(../blocks/add-file/__text/add-file__text.css);
+@import url(../blocks/add-file/__title/add-file__title.css);
+@import url(../blocks/add-file/__input-file/add-file__input-file.css);
+@import url(../blocks/add-file/__input-container/add-file__input-container.css);
+@import url(../blocks/add-file/__add-link/add-file__add-link.css);
+@import url(../blocks/add-file/__img-link/add-file__img-link.css);
+@import url(../blocks/add-file/__link-text/add-file__link-text.css);
+@import url(../blocks/add-file/__file/add-file__file.css);
+@import url(../blocks/add-file/__files/add-file__files.css);
+@import url(../blocks/add-file/__preview/add-file__preview.css);
+@import url(../blocks/add-file/__file-conatiner/add-file__file-conatiner.css);
+@import url(../blocks/add-file/__trash/add-file__trash.css);
+@import url(../blocks/add-file/__falename/add-file__falename.css);

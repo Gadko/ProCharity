@@ -1,0 +1,11 @@
+.add-file__btn-text {
+	line-height: 40px;
+	display: inline-block;
+    color: rgba(123, 135, 143, 1);
+}
+
+@media (max-width: 1024px) {
+	.add-file__btn-text {
+		display: none;
+	}
+}
