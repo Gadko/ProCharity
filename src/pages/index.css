@@ -99,6 +99,8 @@
 @import url(../blocks/progress/__link/progress__link.css);
 @import url(../blocks/progress/__title/progress__title.css);
 @import url(../blocks/progress/_dusabled/progress_dusabled.css);
+@import url(../blocks/progress/__reload/progress__reload.css);
+@import url(../blocks/progress/__bar-container/progress__bar-container.css);
 
 
 @import url(../blocks/main/__fieldset/_column/main__fieldset_column.css);
@@ -112,3 +114,8 @@
 @import url(../blocks/input-text/__textfield/_social-block/input-text__textfield_social-block.css);
 @import url(../blocks/main/__caption/main__caption.css);
 @import url(../blocks/main/__captions/main__captions.css);
+
+
+@import url(../blocks/social/social.css);
+
+@import url(../blocks/breadcrumbs/breadcrumbs.css);
