@@ -48,6 +48,10 @@ module.exports = {
       template: './src/index.html'
     }),
     new HtmlWebpackPlugin({
+      filename: 'password.html',
+      template: './src/social.html'
+    }),
+    new HtmlWebpackPlugin({
       filename: 'reg-account.html',
       template: './src/reg-account.html'
     }),

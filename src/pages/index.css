@@ -119,3 +119,8 @@
 @import url(../blocks/social/social.css);
 
 @import url(../blocks/breadcrumbs/breadcrumbs.css);
+
+@import url(../blocks/password/password.css);
+@import url(../blocks/input-text/__hide-show-text/_hidden/input-text__hide-show-text_hidden.css);
+@import url(../blocks/main/_password-block/main_password-block.css);
+@import url(../blocks/main/__btns/_password-block/main__btns_password-block.css);
