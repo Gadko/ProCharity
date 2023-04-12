@@ -1,6 +1,5 @@
 .main {
     display: flex;
-    flex-direction: row;
     max-width: 741px;
     flex-direction: column;
     overflow: hidden;
@@ -9,9 +8,8 @@
 @media screen and (max-width: 1024px)
 {
     .main {
-        padding: 0 32px 0;
+        margin: 0 auto;
         flex-direction: column;
         max-width: calc(100% - 48px);
-        margin: 0 32px 0 32px;
     }
 }

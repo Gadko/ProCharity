@@ -42,7 +42,7 @@
 @import url(../blocks/main/__header/main__header.css);
 @import url(../blocks/main/__form/main__form.css);
 @import url(../blocks/main/__fieldset/main__fieldset.css);
-@import url(../blocks/main/__fieldset-item/main__fieldset-item.css);
+@import url(../blocks/main/__fieldset/_columns/main__fieldset_columns.css);
 @import url(../blocks/main/__btns/main__btns.css);
 
 @import url(../blocks/btn/btn.css);
@@ -99,3 +99,16 @@
 @import url(../blocks/progress/__link/progress__link.css);
 @import url(../blocks/progress/__title/progress__title.css);
 @import url(../blocks/progress/_dusabled/progress_dusabled.css);
+
+
+@import url(../blocks/main/__fieldset/_column/main__fieldset_column.css);
+
+@import url(../blocks/main/__icons/main__icons.css);
+@import url(../blocks/main/__icons/_facebook/main__icons_facebook.css);
+@import url(../blocks/main/__icons/_instagram/main__icons_instagram.css);
+@import url(../blocks/main/__icons/_linkedin/main__icons_linkedin.css);
+@import url(../blocks/main/__icons/_ok/main__icons_ok.css);
+@import url(../blocks/main/__icons/_vk/main__icons_vk.css);
+@import url(../blocks/input-text/__textfield/_social-block/input-text__textfield_social-block.css);
+@import url(../blocks/main/__caption/main__caption.css);
+@import url(../blocks/main/__captions/main__captions.css);
