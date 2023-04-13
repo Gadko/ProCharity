@@ -158,3 +158,15 @@
 @import url(../blocks/profile/profile.css);
 @import url(../blocks/profile/__list/profile__list.css);
 @import url(../blocks/profile/__row/profile__row.css);
+
+@import url(../blocks/notifications/notifications.css);
+@import url(../blocks/checkbox/_notifications/checkbox_notifications.css);
+@import url(../blocks/input-text/__question/_notifications/input-text__question_notifications.css);
+@import url(../blocks/telegram-block/telegram-block.css);
+@import url(../blocks/telegram-block/__caption/telegram-block__caption.css);
+@import url(../blocks/telegram-block/__button/telegram-block__button.css);
+@import url(../blocks/telegram-block/__button-text/telegram-block__button-text.css);
+@import url(../blocks/telegram-block/__button-image/telegram-block__button-image.css);
+
+@import url(../blocks/checkbox/__text/checkbox__text.css);
+

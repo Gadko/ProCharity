@@ -1,0 +1,7 @@
+.telegram-block__button-image{
+    background-image: url("../../../images/telegram-image.svg");
+    background-color: transparent;
+    min-width: 18px;
+    min-height: 15px;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,21 @@
+.telegram-block__button{
+    cursor: pointer;
+    background: #54A9EA;
+    border-radius: 6px;
+    max-width: 132px;
+    max-height: 32px;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .telegram-block__button {
+        align-self: flex-end;
+    }
+}

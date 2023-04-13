@@ -75,6 +75,10 @@ module.exports = {
       filename: 'profile.html',
       template: './src/profile.html'
     }),
+    new HtmlWebpackPlugin({
+      filename: 'notifications.html',
+      template: './src/notifications.html'
+    }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
 
