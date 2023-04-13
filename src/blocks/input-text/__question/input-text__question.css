@@ -1,7 +1,7 @@
 .input-text__question {
-    position: relative;
-    max-width: 24px;
-    max-height: 24px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
     top: 12px;
     right: 36px;
     padding: 0;

@@ -1,6 +1,7 @@
 .main {
     display: flex;
     max-width: 741px;
+    width: 100%;
     flex-direction: column;
     overflow: hidden;
 }

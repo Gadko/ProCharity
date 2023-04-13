@@ -1,4 +1,4 @@
-.social {
+.motivation {
   display: flex;
   justify-content: center;
   padding-top: 64px;
@@ -6,7 +6,7 @@
 }
 
 @media (max-width:1024px) {
-  .social {
+  .motivation {
     display: block;
     padding-top: 24px;
   }

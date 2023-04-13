@@ -120,6 +120,14 @@
 
 @import url(../blocks/breadcrumbs/breadcrumbs.css);
 
+/* MOTIVATION START */
+@import url(../blocks/motivation/motivation.css);
+@import url(../blocks/input-text/__textarea/input-text__textarea.css);
+@import url(../blocks/input-text/__label/input-text__label.css);
+@import url(../blocks/input-text/__counter/input-text__counter.css);
+@import url(../blocks/main/__item-textarea/main__item-textarea.css);
+/* MOTIVATION END */
+
 @import url(../blocks/add-file/add-file.css);
 @import url(../blocks/add-file/__btn-text/add-file__btn-text.css);
 @import url(../blocks/add-file/__btn/add-file__btn.css);
@@ -137,3 +145,4 @@
 @import url(../blocks/add-file/__file-conatiner/add-file__file-conatiner.css);
 @import url(../blocks/add-file/__trash/add-file__trash.css);
 @import url(../blocks/add-file/__falename/add-file__falename.css);
+
