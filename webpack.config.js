@@ -71,6 +71,10 @@ module.exports = {
       filename: 'portfolio.html',
       template: './src/portfolio.html'
     }),
+    new HtmlWebpackPlugin({
+      filename: 'contacts.html',
+      template: './src/contacts.html'
+    }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
 
