@@ -1,0 +1,4 @@
+
+.status__text_blocked::before {
+    content: "Заблокирован";
+}

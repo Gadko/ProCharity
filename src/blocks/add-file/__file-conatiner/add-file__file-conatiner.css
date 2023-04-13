@@ -1,0 +1,6 @@
+.add-file__file-conatiner {
+    width: max-content;
+    align-items: center;
+    display: flex;
+    gap: 12px;
+}

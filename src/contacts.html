@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProCharity</title>
+    <link rel="alternate" hreflang="Ru" href="#" />
+</head>
+<body>
+  <main class="page">
+    <section class="contacts">  
+      <div class="sidebar">
+        <ul class="stepper">
+          <p class="breadcrumbs"><span><a class="link" href="#">Личный кабинет</a></span> / Мои данные</p>
+          <li class="stepper__step-mobile stepper__step-mobile_disabled">
+            <a
+              href="#"
+              class="stepper__step stepper__step-start stepper__step_active"
+            >
+              Личные данные
+            </a>
+          </li>
+          <li class="stepper__step-mobile stepper__step-mobile_disabled">
+            <a href="#" class="stepper__step">
+              Компетенции
+            </a>
+          </li>
+          <li class="stepper__step-mobile stepper__step-mobile_disabled">
+            <a href="#" class="stepper__step">
+              Мотивация
+            </a>
+          </li>
+          <li class="stepper__step-mobile stepper__step-mobile_disabled">
+            <a href="#" class="stepper__step">
+              Портфолио
+            </a>
+          </li>
+          <li class="stepper__step-mobile stepper__step-mobile_disabled">
+            <a href="#" class="stepper__step">
+              Социальные сети
+            </a>
+          </li>
+        </ul>
+        <div class="stepper__mobile-description">
+          <p class="stepper__mobile-description-name">Регистрация волонтера</p>
+          <p class="stepper__mobile-description-step">Шаг 1 из 5</p>
+        </div>
+        <!--Статус. Меняется при добавлении соответствующих модификаторов для status__container и status__text. На этой странице не нужен, но я добавил пока что сюда, что бы использовать на других страницах-->
+        <div class="status">
+          <h3 class="status__title">Статус профиля</h3>
+          <div class="status__container status__container_gray">
+              <p class="status__text status__text_hidden"></p>
+              <button class="status__question"></button>
+          </div>
+        </div>
+        <!--Прогресс бар,на этой странице не нужен, но я добавил пока что сюда, что бы использовать на других страницах-->
+        <div class="progress">
+          <h3 class="progress__title">Профиль заполнен на 66%</h3>
+          <div class="progress__bar-container">
+            <div class="progress__bar">
+                <div class="progress__fullness"></div>    
+            </div>
+            <button type="button" class="progress__reload"></button>
+          </div>
+          <p class="progress__description">Узнай, <span>
+              <a class="progress__link" href="#">как заполнить профиль,</a>
+          </span> 
+          чтобы тебя выбрали исполнителем</p>
+        </div> 
+        <!--Конец блока статуса и прогресс бара.-->
+      </div>
+      <div class="main">
+        <h1 class="main__header">Личные данные</h1>
+        <form class="main__form">
+          <fieldset class="main__fieldset main__fieldset_column">
+            <div class="image-edit">
+              <div class="image-edit__image" for="editImage">
+                  <input type="file" accept=".jpg,.png" id="editImage" hidden>
+                  <label for="editImage" class="link">добавить фотографию</label>
+              </div>
+              <div class="image-edit__image-rules">
+                  <span>Jpg, png </span>
+                  <span>объемом не более 5 Мб</span>
+              </div>
+            </div>
+          </fieldset>
+          <p class="main__paragraph">Фонды увидят эти данные на твоей странице</p>
+          <fieldset class="main__fieldset main__fieldset_columns">
+            <div class="input-text">
+              <div class="input-text__placeholder input-text__placeholder_small">
+                <span>Имя</span>
+              </div>
+              <input type="text" class="input-text__textfield input-text__textfield_with-placeholder" />
+              <button aria-label="Очистить" class="input-text__delete"></button>
+            </div>
+            <div class="input-text">
+              <div class="input-text__placeholder input-text__placeholder_small">
+                <span>Фамилия</span>
+              </div>
+              <input type="text" class="input-text__textfield input-text__textfield_with-placeholder" />
+              <button aria-label="Очистить" class="input-text__delete"></button>
+            </div>
+            <div class="input-text">
+              <div class="input-text__placeholder input-text__placeholder_small">
+                <span>Дата рождения</span>
+              </div>
+              <input type="text" class="input-text__textfield input-text__textfield_with-placeholder" />
+              <div class="input-text__two-additions-grid">
+                <button aria-label="Очистить" class="input-text__delete"></button>
+                <button aria-label="Календарь" class="input-text__calendar"></button>
+              </div>
+            </div>
+            <div class="input-text">
+              <div class="input-text__placeholder input-text__placeholder_small">
+                <span>Город</span>
+              </div>
+                <input type="text" class="input-text__textfield input-text__textfield_with-placeholder"  />
+                <button aria-label="Очистить" class="input-text__delete"></button>
+              </div>
+          </fieldset>
+          <p class="main__paragraph">Контакты будут видны фондам, которые выберут тебя исполнителем задания</p>
+          <fieldset class="main__fieldset main__fieldset_columns">
+            <div class="input-text">
+              <div class="input-text__placeholder input-text__placeholder_small">
+                <span>Электронная почта</span>
+              </div>
+              <input type="text" class="input-text__textfield input-text__textfield_with-placeholder" />
+              <button aria-label="Очистить" class="input-text__delete"></button>
+            </div>
+            <div class="input-text">
+              <div class="input-text__placeholder input-text__placeholder_small">
+                <span>Телефон</span>
+              </div>
+              <input type="text" class="input-text__textfield input-text__textfield_with-placeholder" />
+              <button aria-label="Очистить" class="input-text__delete"></button>
+            </div>
+            <div class="input-text">
+              <div class="input-text__placeholder input-text__placeholder_small">
+                <span>Ник в Telegram</span>
+              </div>
+              <input type="text" class="input-text__textfield input-text__textfield_with-placeholder" />
+              <div class="input-text__two-additions-grid">
+                <button aria-label="Очистить" class="input-text__delete"></button>
+                <button aria-label="Подсказка" class="input-text__question"></button>
+              </div>
+            </div>
+            <div class="input-text">
+              <div class="input-text__placeholder input-text__placeholder_normal">
+                <span>Предпочитаемый способ связи</span>
+              </div>
+              <select class="input-text__selector" >
+                <option hidden value=""></option>
+                <option>Электронная почта</option>
+                <option>Телефон</option>
+                <option>Telegram</option>
+                <option>Электронная почта и телефон</option>
+                <option>Электронная почта и Telegram</option>
+              </select>
+              <button aria-label="Очистить" class="input-text__selector-list"></button>
+          </fieldset>
+          <fieldset class="main__fieldset main__fieldset_column">
+            <div class="main__two-choices">
+              <input name="whoami" type="radio" id="whoami1" class="main__hidden-choice"  value="solo">
+              <label for="whoami1" class="main__choice">я Частное лицо</label>
+              <input name="whoami" type="radio" id="whoami2" class="main__hidden-choice"  value="company">
+              <label for="whoami2" class="main__choice">я представляю компанию</label>
+            </div>
+          </fieldset>
+          <fieldset class="main__fieldset main__fieldset_columns">
+            <div class="input-text">
+              <div class="input-text__placeholder input-text__placeholder_normal">
+                <label for="select1">Выбрать компанию</span>
+              </div>
+              <select class="input-text__selector" name="" id="select1" >
+                <option hidden value=""></option>
+                <option>test</option>
+              </select>
+              <button aria-label="Очистить" class="input-text__selector-list"></button>
+            </div>
+            <div class="input-text">
+              <div class="input-text__placeholder input-text__placeholder_normal">
+                <label for="select1">Выбрать компанию</span>
+              </div>
+              <select class="input-text__selector" name="" id="select1" >
+                <option hidden value=""></option>
+                <option style="color: aqua; border: 2px solid red; width: 50px;">test</option>
+              </select>
+              <button aria-label="Очистить" class="input-text__selector-list"></button>
+            </div>
+          </fieldset>
+          <fieldset class="main__fieldset main__fieldset_column main__fieldset_margin-for-bigtext">
+            <div class="input-text">
+              <textarea type="text" class="input-text__big-textfield" placeholder="Как ты о нас узнал?"></textarea>
+            </div>
+          </fieldset>
+          <button type="submit" class="btn btn__registration">Сохранить</button>
+        </form>
+      </div>
+      <div class="status status_mobile">
+        <h3 class="status__title">Статус профиля</h3>
+        <div class="status__container status__container_blue">
+            <p class="status__text status__text_edits"></p>
+            <button class="status__question"></button>
+        </div>
+    </div>
+    </section>
+  </main>
+</body>
+</html>

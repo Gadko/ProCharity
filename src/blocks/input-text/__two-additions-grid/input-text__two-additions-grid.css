@@ -1,8 +1,6 @@
 .input-text__two-additions-grid {
-    position: relative;
+    position: absolute;
     display: grid;
     grid-template: 24px / repeat(2, 24px);
-
-
-    right: 24px;
+    right: 0;
 }

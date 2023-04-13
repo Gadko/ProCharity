@@ -1,0 +1,8 @@
+.add-file__files {
+    max-width: 736px;
+    height: max-content;
+    border-radius: 6px;
+
+    background: #FFFFFF;
+    border: 1px solid #E3E9F0;
+}

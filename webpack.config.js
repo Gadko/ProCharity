@@ -48,8 +48,32 @@ module.exports = {
       template: './src/index.html'
     }),
     new HtmlWebpackPlugin({
+      filename: 'password.html',
+      template: './src/password.html'
+    }),
+    new HtmlWebpackPlugin({
       filename: 'reg-account.html',
       template: './src/reg-account.html'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'reg-email-info.html',
+      template: './src/reg-email-info.html'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'social.html',
+      template: './src/social.html'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'motivation.html',
+      template: './src/motivation.html'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'portfolio.html',
+      template: './src/portfolio.html'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'contacts.html',
+      template: './src/contacts.html'
     }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),

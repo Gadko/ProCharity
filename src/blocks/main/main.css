@@ -1,16 +1,16 @@
 .main {
     display: flex;
-    flex-direction: row;
-    margin: 0 32px 120px 32px;
-    max-width: 736px;
+    max-width: 741px;
+    width: 100%;
     flex-direction: column;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 1024px)
 {
     .main {
+        margin: 0 auto;
         flex-direction: column;
         max-width: calc(100% - 48px);
-        margin: 0 32px 120px 32px;
     }
 }
