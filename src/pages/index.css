@@ -60,6 +60,7 @@
 @import url(../blocks/checkbox/checkbox.css);
 @import url(../blocks/checkbox/__checkbox-hidden/checkbox__checkbox-hidden.css);
 @import url(../blocks/checkbox/__checkbox-on-screen/checkbox__checkbox-on-screen.css);
+@import url(../blocks/checkbox/_profile/checkbox_profile.css);
 
 @import url(../blocks/sidebar/sidebar.css);
 @import url(../blocks/stepper/stepper.css);
@@ -114,6 +115,7 @@
 @import url(../blocks/input-text/__textfield/_social-block/input-text__textfield_social-block.css);
 @import url(../blocks/main/__caption/main__caption.css);
 @import url(../blocks/main/__captions/main__captions.css);
+@import url(../blocks/main/__paragraph/_profile/main__paragraph_profile.css);
 
 
 @import url(../blocks/social/social.css);
@@ -153,3 +155,6 @@
 @import url(../blocks/add-file/__trash/add-file__trash.css);
 @import url(../blocks/add-file/__falename/add-file__falename.css);
 
+@import url(../blocks/profile/profile.css);
+@import url(../blocks/profile/__list/profile__list.css);
+@import url(../blocks/profile/__row/profile__row.css);
