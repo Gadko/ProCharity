@@ -1,3 +1,5 @@
-.stepper__step-mobile_active {
-  background-color: #E65609;
+@media (max-width:1024px) {
+  .stepper__step-mobile_active {
+    background-color: #E65609;
+  }
 }

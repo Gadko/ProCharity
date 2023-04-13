@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ProCharity</title>
+  <link rel="alternate" hreflang="Ru" href="#" />
+</head>
+
+<body>
+  <main class="page">
+    <section class="motivation">
+      <div class="sidebar">
+        <ul class="stepper">
+          <p class="breadcrumbs"><span><a class="link" href="#">Личный кабинет</a></span> / Мои данные</p>
+          <li class="stepper__step-mobile">
+            <a href="#" class="stepper__step">
+              Личные данные
+            </a>
+          </li>
+          <li class="stepper__step-mobile">
+            <a href="#" class="stepper__step">
+              Компетенции
+            </a>
+          </li>
+          <li class="stepper__step-mobile stepper__step-mobile_active">
+            <a href="#" class="stepper__step  stepper__step_active">
+              Мотивация
+            </a>
+          </li>
+          <li class="stepper__step-mobile">
+            <a href="#" class="stepper__step">
+              Портфолио
+            </a>
+          </li>
+          <li class="stepper__step-mobile">
+            <a href="#" class="stepper__step">
+              Социальные сети
+            </a>
+          </li>
+        </ul>
+        <div class="stepper__mobile-description">
+          <p class="stepper__mobile-description-name">Регистрация волонтера</p>
+          <p class="stepper__mobile-description-step">Шаг 3 из 5</p>
+        </div>
+        <!--Статус. Меняется при добавлении соответствующих модификаторов для status__container и status__text. На этой странице не нужен, но я добавил пока что сюда, что бы использовать на других страницах-->
+        <div class="status">
+          <h3 class="status__title">Статус профиля</h3>
+          <div class="status__container">
+            <p class="status__text"></p>
+            <button class="status__question"></button>
+          </div>
+        </div>
+        <!--Прогресс бар,на этой странице не нужен, но я добавил пока что сюда, что бы использовать на других страницах-->
+        <div class="progress">
+          <h3 class="progress__title">Профиль заполнен на 66%</h3>
+          <div class="progress__bar-container">
+            <div class="progress__bar">
+              <div class="progress__fullness"></div>
+            </div>
+            <button type="button" class="progress__reload"></button>
+          </div>
+          <p class="progress__description">Узнай, <span>
+              <a class="progress__link" href="#">как заполнить профиль,</a>
+            </span>
+            чтобы тебя выбрали исполнителем</p>
+        </div>
+        <!--Конец блока статуса и прогресс бара.-->
+      </div>
+      <div class="main">
+        <h1 class="main__header">Моя мотивация и сильные стороны</h1>
+        <form class="main__form">
+          <p class="main__paragraph">Расскажи немного о себе и причинах, по которым стремишься помогать другим</p>
+          <div class="input-text main__item-textarea">
+            <label class="input-text__label" for="">Почему я хочу стать волонтером?</label>
+            <textarea class="input-text__textarea" name="" id="" rows="2" maxlength="2000"></textarea>
+            <button aria-label="Очистить" class="input-text__delete"></button>
+            <span class="input-text__counter">486/2000</span>
+          </div>
+          <p class="main__paragraph">Опиши свой опыт и навыки подробнее. Например, если ты выбрал категорию перевода, укажи язык, которым владеешь</p>
+          <div class="input-text main__item-textarea">
+            <label class="input-text__label" for="">Какие мои знания и навыки будут полезны фондам?</label>
+            <textarea class="input-text__textarea" name="" id="" rows="2" maxlength="2000"></textarea>
+            <button aria-label="Очистить" class="input-text__delete"></button>
+            <span class="input-text__counter">486/2000</span>
+          </div>
+          <button type="submit" class="btn btn__registration">Сохранить</button>
+        </form>
+      </div>
+      <div class="status status_mobile">
+        <h3 class="status__title">Статус профиля</h3>
+        <div class="status__container">
+          <p class="status__text"></p>
+          <button class="status__question"></button>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
