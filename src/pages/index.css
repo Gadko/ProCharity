@@ -44,6 +44,8 @@
 @import url(../blocks/main/__fieldset/main__fieldset.css);
 @import url(../blocks/main/__fieldset/_columns/main__fieldset_columns.css);
 @import url(../blocks/main/__btns/main__btns.css);
+@import url(../blocks/main/__input-error/main__input-error.css);
+@import url(../blocks/main/__input-error/_active/main__input-error_active.css);
 
 @import url(../blocks/btn/btn.css);
 @import url(../blocks/btn/__registration/btn__registration.css);
@@ -56,6 +58,7 @@
 @import url(../blocks/input-text/__hide-show-text/input-text__hide-show-text.css);
 @import url(../blocks/input-text/__delete/input-text__delete.css);
 @import url(../blocks/input-text/input-text.css);
+@import url(../blocks/input-text/_direction/input-text_direction.css);
 
 @import url(../blocks/checkbox/checkbox.css);
 @import url(../blocks/checkbox/__checkbox-hidden/checkbox__checkbox-hidden.css);
