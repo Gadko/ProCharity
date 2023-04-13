@@ -47,6 +47,7 @@
 @import url(../blocks/main/__two-choices/main__two-choices.css);
 @import url(../blocks/main/__choice/main__choice.css);
 @import url(../blocks/main/__hidden-choice/main__hidden-choice.css);
+@import url(../blocks/main/__fieldset/_margines/main__fieldset_margin-for-bigtext.css);
 
 @import url(../blocks/btn/btn.css);
 @import url(../blocks/btn/__registration/btn__registration.css);
@@ -65,6 +66,7 @@
 @import url(../blocks/input-text/__placeholder/_small/input-text__placeholder_small.css);
 @import url(../blocks/input-text/__placeholder/_hidden/input-text__placeholder_hidden.css);
 @import url(../blocks/input-text/_disabled/input-text_disabled.css);
+@import url(../blocks/input-text/__big-textfield/input-text__big-textfield.css);
 
 @import url(../blocks/input-text/__selector/input-text__selector.css);
 

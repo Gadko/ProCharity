@@ -75,15 +75,14 @@
         <form class="main__form">
           <fieldset class="main__fieldset main__fieldset_column">
             <div class="image-edit">
-                <a href="#">
-                    <div class="image-edit__image">
-                        <input type="file" class="link" value="добавить фотографию" accept=".jpg,.png">
-                    </div>
-                </a>
-                <div class="image-edit__image-rules">
-                    <span>Jpg, png </span>
-                    <span>объемом не более 5 Мб</span>
-                </div>
+              <div class="image-edit__image" for="editImage">
+                  <input type="file" accept=".jpg,.png" id="editImage" hidden>
+                  <label for="editImage" class="link">добавить фотографию</label>
+              </div>
+              <div class="image-edit__image-rules">
+                  <span>Jpg, png </span>
+                  <span>объемом не более 5 Мб</span>
+              </div>
             </div>
           </fieldset>
           <p class="main__paragraph">Фонды увидят эти данные на твоей странице</p>
@@ -190,9 +189,9 @@
               <button aria-label="Очистить" class="input-text__selector-list"></button>
             </div>
           </fieldset>
-          <fieldset class="main__fieldset main__fieldset_column">
+          <fieldset class="main__fieldset main__fieldset_column main__fieldset_margin-for-bigtext">
             <div class="input-text">
-              <input type="file">
+              <textarea type="text" class="input-text__big-textfield" placeholder="Как ты о нас узнал?"></textarea>
             </div>
           </fieldset>
           <button type="submit" class="btn btn__registration">Сохранить</button>
