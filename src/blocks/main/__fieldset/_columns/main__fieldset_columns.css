@@ -8,5 +8,6 @@
 @media screen and (max-width: 1024px) {
     .main__fieldset_columns {
         grid-template: 2fr / 1fr;
+        gap: 16px;
     }
 }
