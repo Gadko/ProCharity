@@ -49,7 +49,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: 'password.html',
-      template: './src/social.html'
+      template: './src/password.html'
     }),
     new HtmlWebpackPlugin({
       filename: 'reg-account.html',
