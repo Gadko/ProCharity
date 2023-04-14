@@ -72,6 +72,10 @@ module.exports = {
       template: './src/portfolio.html'
     }),
     new HtmlWebpackPlugin({
+      filename: 'profile.html',
+      template: './src/profile.html'
+    }),
+    new HtmlWebpackPlugin({
       filename: 'contacts.html',
       template: './src/contacts.html'
     }),

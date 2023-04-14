@@ -44,6 +44,9 @@
 @import url(../blocks/main/__fieldset/main__fieldset.css);
 @import url(../blocks/main/__fieldset/_columns/main__fieldset_columns.css);
 @import url(../blocks/main/__btns/main__btns.css);
+
+@import url(../blocks/main/__input-error/main__input-error.css);
+@import url(../blocks/main/__input-error/_active/main__input-error_active.css);
 @import url(../blocks/main/__two-choices/main__two-choices.css);
 @import url(../blocks/main/__choice/main__choice.css);
 @import url(../blocks/main/__hidden-choice/main__hidden-choice.css);
@@ -71,10 +74,12 @@
 @import url(../blocks/input-text/__selector/input-text__selector.css);
 
 @import url(../blocks/input-text/input-text.css);
+@import url(../blocks/input-text/_direction/input-text_direction.css);
 
 @import url(../blocks/checkbox/checkbox.css);
 @import url(../blocks/checkbox/__checkbox-hidden/checkbox__checkbox-hidden.css);
 @import url(../blocks/checkbox/__checkbox-on-screen/checkbox__checkbox-on-screen.css);
+@import url(../blocks/checkbox/_profile/checkbox_profile.css);
 
 @import url(../blocks/sidebar/sidebar.css);
 @import url(../blocks/stepper/stepper.css);
@@ -128,6 +133,9 @@
 @import url(../blocks/main/__icons/_vk/main__icons_vk.css);
 @import url(../blocks/main/__caption/main__caption.css);
 @import url(../blocks/main/__captions/main__captions.css);
+
+@import url(../blocks/main/__paragraph/_profile/main__paragraph_profile.css);
+
 @import url(../blocks/main/__item-textarea/main__item-textarea.css);
 
 @import url(../blocks/image-edit/image-edit.css);
@@ -174,3 +182,6 @@
 @import url(../blocks/add-file/__trash/add-file__trash.css);
 @import url(../blocks/add-file/__falename/add-file__falename.css);
 
+@import url(../blocks/profile/profile.css);
+@import url(../blocks/profile/__list/profile__list.css);
+@import url(../blocks/profile/__row/profile__row.css);
