@@ -1,0 +1,12 @@
+.image-edit__image-rules {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #7B878F;
+}
