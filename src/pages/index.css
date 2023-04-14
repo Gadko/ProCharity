@@ -34,6 +34,7 @@
 @import url(../blocks/main/main.css);
 
 @import url(../blocks/link/link.css);
+@import url(../blocks/link/_all-block-size/link_all-block-size.css);
 
 @import url(../blocks/registration-volunteer/registration-volunteer.css);
 @import url(../blocks/registration-volunteer/__stepper/registration-volunteer__stepper.css);
@@ -58,11 +59,16 @@
 @import url(../blocks/btn/_status_disabled/btn_status_disabled.css);
 
 @import url(../blocks/input-text/__textfield/input-text__textfield.css);
+@import url(../blocks/input-text/__textfield/_with-placeholder/input-text__textfield_with-placeholder.css);
 @import url(../blocks/input-text/__two-additions-grid/input-text__two-additions-grid.css);
+@import url(../blocks/input-text/__two-additions-grid/_for-placeholder/input-text__two-additions-grid_for-placeholder.css);
 @import url(../blocks/input-text/__question/input-text__question.css);
+@import url(../blocks/input-text/__question/_for-grid/input-text__question_for-grid.css);
 @import url(../blocks/input-text/__hide-show-text/input-text__hide-show-text.css);
 @import url(../blocks/input-text/__delete/input-text__delete.css);
+@import url(../blocks/input-text/__delete/_for-grid/input-text__delete_for-grid.css);
 @import url(../blocks/input-text/__calendar/input-text__calendar.css);
+@import url(../blocks/input-text/__calendar/_for-grid/input-text__calendar_for-grid.css);
 @import url(../blocks/input-text/__selector-list/input-text__selector-list.css);
 @import url(../blocks/input-text/__placeholder/input-text__placeholder.css);
 @import url(../blocks/input-text/__placeholder/_normal/input-text__placeholder_normal.css);
