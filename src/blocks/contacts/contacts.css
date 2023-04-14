@@ -1,0 +1,13 @@
+.contacts {
+    display: flex;
+    justify-content: center;
+    padding-top: 64px;
+    gap: 32px;
+}
+
+@media (max-width:1024px) {
+    .contacts {
+      display: block;
+      padding-top: 24px;
+    }
+  }

@@ -1,0 +1,8 @@
+.main__two-choices {
+    display: flex;
+    border: 1px solid #048AA7;
+    border-radius: 6px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 32px 0 20px 0;
+}

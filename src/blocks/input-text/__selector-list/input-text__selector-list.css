@@ -1,0 +1,13 @@
+.input-text__selector-list {
+    position: relative;
+    min-width: 24px;
+    max-height: 24px;
+    top: 12px;
+    right: 36px;
+    padding: 0;
+    border: none;
+    background: none;
+    background-image: url(../../../images/arrow.png);
+    background-position: center;
+    cursor: pointer;
+}

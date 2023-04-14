@@ -1,0 +1,7 @@
+.add-file__preview {
+    background-image: url(../../../images/preview.png);
+    width: 48px;
+    height: 48px;
+
+    border-radius: 3px;
+}

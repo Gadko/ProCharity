@@ -1,0 +1,13 @@
+.social {
+  display: flex;
+  justify-content: center;
+  padding-top: 64px;
+  gap: 32px;
+}
+
+@media (max-width:1024px) {
+  .social {
+    display: block;
+    padding-top: 24px;
+  }
+}

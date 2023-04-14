@@ -1,0 +1,14 @@
+.main__icons{
+    width: 100%;
+    min-width: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    padding-right: 16px;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1024px) {
+    .input-text__textfield_social {
+        padding-right: 8px;
+    }
+}

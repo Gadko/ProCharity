@@ -1,0 +1,10 @@
+.image-edit {
+    display: flex;
+    gap: 32px;
+    max-height: fit-content;
+    max-width: 100%;
+    font-size: 16px;
+    line-height: 22px;
+    align-items: center;
+    margin: 0 0 24px 0;
+}

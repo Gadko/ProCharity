@@ -9,8 +9,190 @@
   </head>
   <body class="page">
     <main>
-
-
+      <section class="registration-volunteer">
+        <div class="sidebar">
+          <ul class="stepper">
+            <li class="stepper__step-mobile stepper__step-registration">
+              <p class="stepper__step stepper__registration">Регистрация</p>
+            </li>
+            <li class="stepper__step-mobile stepper__step-mobile_disabled">
+              <a
+                href="#"
+                class="stepper__step stepper__step_disabled stepper__step-start"
+              >
+                Личные данные
+              </a>
+            </li>
+            <li class="stepper__step-mobile stepper__step-mobile_disabled">
+              <a href="#" class="stepper__step stepper__step_disabled">
+                Компетенции
+              </a>
+            </li>
+            <li class="stepper__step-mobile stepper__step-mobile_disabled">
+              <a href="#" class="stepper__step stepper__step_disabled">
+                Мотивация
+              </a>
+            </li>
+            <li class="stepper__step-mobile stepper__step-mobile_disabled">
+              <a href="#" class="stepper__step stepper__step_disabled">
+                Портфолио
+              </a>
+            </li>
+            <li class="stepper__step-mobile stepper__step-mobile_disabled">
+              <a href="#" class="stepper__step stepper__step_disabled">
+                Социальные сети
+              </a>
+            </li>
+          </ul>
+          <div class="stepper__mobile-description">
+            <p class="stepper__mobile-description-name">Регистрация волонтера</p>
+            <p class="stepper__mobile-description-step">Шаг 1 из 5</p>
+          </div>
+          <!--Статус. Меняется при добавлении соответствующих модификаторов для status__container и status__text. На этой странице не нужен, но я добавил пока что сюда, что бы использовать на других страницах-->
+          <div class="status status_dusabled">
+            <h3 class="status__title">Статус профиля</h3>
+            <div class="status__container status__container_blue">
+                <p class="status__text status__text_edits"></p>
+                <button class="status__question"></button>
+            </div>
+          </div>
+          <!--Прогресс бар,на этой странице не нужен, но я добавил пока что сюда, что бы использовать на других страницах-->
+          <div class="progress progress_dusabled">
+            <h3 class="progress__title">Профиль заполнен на 66%</h3>
+            <div class="progress__bar-container">
+              <div class="progress__bar">
+                  <div class="progress__fullness"></div>    
+              </div>
+              <button type="button" class="progress__reload"></button>
+            </div>
+            <p class="progress__description">Узнай, <span>
+                <a class="progress__link" href="#">как заполнить профиль,</a>
+            </span> 
+            чтобы тебя выбрали исполнителем</p>
+          </div> 
+          <!--Конец блока статуса и прогресс бара.-->
+        </div>
+        <div class="main">
+          <h1 class="main__header">Регистрация нового волонтера</h1>
+          <form class="main__form">
+            <fieldset class="main__fieldset main__fieldset_columns">
+              <div class="input-text">
+                <input
+                  type="text"
+                  class="input-text__textfield"
+                  placeholder="Имя"
+                  required
+                />
+              </div>
+              <div class="input-text">
+                <input
+                  type="text"
+                  class="input-text__textfield"
+                  placeholder="Фамилия"
+                  required
+                />
+                <button
+                  aria-label="Очистить"
+                  class="input-text__delete"
+                ></button>
+              </div>
+            </fieldset>
+            <p class="main__paragraph">
+              Контакты будут видны фондам, которые выберут тебя исполнителем
+              задания
+            </p>
+            <fieldset class="main__fieldset main__fieldset_columns">
+              <div class="input-text">
+                <input
+                  type="text"
+                  class="input-text__textfield"
+                  placeholder="Email"
+                  required
+                />
+              </div>
+              <div class="input-text">
+                <input
+                  type="text"
+                  class="input-text__textfield"
+                  placeholder="Ник в Telegram"
+                  required
+                />
+                <div class="input-text__two-additions-grid">
+                  <button
+                    aria-label="Очистить"
+                    class="input-text__delete"
+                  ></button>
+                  <button
+                    aria-label="Подсказка"
+                    class="input-text__question"
+                  ></button>
+                </div>
+              </div>
+            </fieldset>
+            <p class="main__paragraph">
+              Пароль должен содержать не менее 8 знаков и может включать
+              латинские буквы, цифры и специальные символы
+            </p>
+            <fieldset class="main__fieldset main__fieldset_columns">
+              <div class="input-text">
+                <input
+                  type="password"
+                  class="input-text__textfield"
+                  placeholder="Пароль"
+                  required
+                />
+                <button class="input-text__hide-show-text"></button>
+              </div>
+              <div class="input-text">
+                <input
+                  type="password"
+                  class="input-text__textfield"
+                  placeholder="Подтвердите пароль"
+                  required
+                />
+                <button class="input-text__hide-show-text"></button>
+              </div>
+            </fieldset>
+            <fieldset class="main__fieldset">
+              <div class="checkbox">
+                <input
+                  type="checkbox"
+                  class="checkbox__checkbox-hidden"
+                  id="checkbox-hidden"
+                  required
+                />
+                <label
+                  for="checkbox-hidden"
+                  class="checkbox__checkbox-on-screen"
+                ></label>
+                <span
+                  >Соглашаюсь с
+                  <a class="link" href="#">правилами сайта</a></span
+                >
+              </div>
+            </fieldset>
+            <fieldset class="main__btns">
+              <button type="button" class="btn btn__reset">Назад</button>
+              <button
+                type="button"
+                class="btn btn__registration btn_status_disabled"
+                disabled
+              >
+                Зарегистрироваться
+              </button>
+            </fieldset>
+          </form>
+        </div>
+        <!--Блок статуса для мобильной версии, скрывается при добавлении status_dusabled. На этой странице не нужен, но я добавил пока что сюда, что бы потом использовать на других страницах.-->
+        <div class="status status_mobile status_dusabled">
+            <h3 class="status__title">Статус профиля</h3>
+            <div class="status__container status__container_blue">
+                <p class="status__text status__text_edits"></p>
+                <button class="status__question"></button>
+            </div>
+        </div>
+        <!--Конец блока статуса для моб. версии-->
+      </section>
     </main>
   </body>
 </html>

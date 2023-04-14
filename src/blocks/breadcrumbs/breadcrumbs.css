@@ -1,0 +1,20 @@
+.breadcrumbs {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #7B878F;
+
+    margin: 0;
+    height: max-content;
+
+    position: absolute;
+    left: 0;
+    top: -37px;
+}
+
+@media (max-width: 1024px) {
+    .breadcrumbs {
+        display: none;
+    }
+}
