@@ -45,6 +45,13 @@
 @import url(../blocks/main/__fieldset/_columns/main__fieldset_columns.css);
 @import url(../blocks/main/__btns/main__btns.css);
 
+@import url(../blocks/main/__input-error/main__input-error.css);
+@import url(../blocks/main/__input-error/_active/main__input-error_active.css);
+@import url(../blocks/main/__two-choices/main__two-choices.css);
+@import url(../blocks/main/__choice/main__choice.css);
+@import url(../blocks/main/__hidden-choice/main__hidden-choice.css);
+@import url(../blocks/main/__fieldset/_margines/main__fieldset_margin-for-bigtext.css);
+
 @import url(../blocks/btn/btn.css);
 @import url(../blocks/btn/__registration/btn__registration.css);
 @import url(../blocks/btn/__reset/btn__reset.css);
@@ -55,7 +62,19 @@
 @import url(../blocks/input-text/__question/input-text__question.css);
 @import url(../blocks/input-text/__hide-show-text/input-text__hide-show-text.css);
 @import url(../blocks/input-text/__delete/input-text__delete.css);
+@import url(../blocks/input-text/__calendar/input-text__calendar.css);
+@import url(../blocks/input-text/__selector-list/input-text__selector-list.css);
+@import url(../blocks/input-text/__placeholder/input-text__placeholder.css);
+@import url(../blocks/input-text/__placeholder/_normal/input-text__placeholder_normal.css);
+@import url(../blocks/input-text/__placeholder/_small/input-text__placeholder_small.css);
+@import url(../blocks/input-text/__placeholder/_hidden/input-text__placeholder_hidden.css);
+@import url(../blocks/input-text/_disabled/input-text_disabled.css);
+@import url(../blocks/input-text/__big-textfield/input-text__big-textfield.css);
+
+@import url(../blocks/input-text/__selector/input-text__selector.css);
+
 @import url(../blocks/input-text/input-text.css);
+@import url(../blocks/input-text/_direction/input-text_direction.css);
 
 @import url(../blocks/checkbox/checkbox.css);
 @import url(../blocks/checkbox/__checkbox-hidden/checkbox__checkbox-hidden.css);
@@ -112,15 +131,23 @@
 @import url(../blocks/main/__icons/_linkedin/main__icons_linkedin.css);
 @import url(../blocks/main/__icons/_ok/main__icons_ok.css);
 @import url(../blocks/main/__icons/_vk/main__icons_vk.css);
-@import url(../blocks/input-text/__textfield/_social-block/input-text__textfield_social-block.css);
 @import url(../blocks/main/__caption/main__caption.css);
 @import url(../blocks/main/__captions/main__captions.css);
+
 @import url(../blocks/main/__paragraph/_profile/main__paragraph_profile.css);
+
+@import url(../blocks/main/__item-textarea/main__item-textarea.css);
+
+@import url(../blocks/image-edit/image-edit.css);
+@import url(../blocks/image-edit/__image/image-edit__image.css);
+@import url(../blocks/image-edit/__image-rules/image-edit__image-rules.css);
 
 
 @import url(../blocks/social/social.css);
 
 @import url(../blocks/breadcrumbs/breadcrumbs.css);
+
+@import url(../blocks/contacts/contacts.css);
 
 
 @import url(../blocks/password/password.css);
@@ -133,7 +160,7 @@
 @import url(../blocks/input-text/__textarea/input-text__textarea.css);
 @import url(../blocks/input-text/__label/input-text__label.css);
 @import url(../blocks/input-text/__counter/input-text__counter.css);
-@import url(../blocks/main/__item-textarea/main__item-textarea.css);
+@import url(../blocks/input-text/__textfield/_social-block/input-text__textfield_social-block.css);
 /* MOTIVATION END */
 
 

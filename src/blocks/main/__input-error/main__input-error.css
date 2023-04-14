@@ -1,0 +1,10 @@
+.main__input-error {
+    display: none;
+    width: 226px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #D20202;
+}
