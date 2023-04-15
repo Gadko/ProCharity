@@ -74,19 +74,19 @@
         </div>
         <div class="main">
           <h1 class="main__header">Регистрация нового волонтера</h1>
-          <form class="main__form">
+          <form name="registration-volonter" class="main__form" novalidate>
             <fieldset class="main__fieldset main__fieldset_columns">
               <div class="input-text input-text_direction">
                 <input
                   type="text"
-                  class="input-text__textfield"
+                  class="input-text__textfield text-delete"
                   placeholder="Имя"
                   pattern="[^0-9]*"
                   data-error-message="Может содержать только буквы и специальные символы"
-                  id="text-input"
+                  id="name-input"
                   required
                 />
-                <span class="text-input-error main__input-error main__input-error_active"></span>
+                <span class="text-input-error main__input-error main__input-error_active name-input-error"></span>
                 <button
                   aria-label="Очистить"
                   class="input-text__delete"
@@ -95,18 +95,18 @@
               <div class="input-text input-text_direction">
                 <input
                   type="text"
-                  class="input-text__textfield"
+                  class="input-text__textfield text-delete"
                   placeholder="Фамилия"
                   pattern="[^0-9]*"
                   data-error-message="Может содержать только буквы и специальные символы"
-                  id="text-input"
+                  id="surname-input"
                   required
                 />
                 <button
                   aria-label="Очистить"
                   class="input-text__delete"
                 ></button>
-                <span class="text-input-error main__input-error main__input-error_active"></span>
+                <span class="text-input-error main__input-error main__input-error_active surname-input-error"></span>
               </div>
             </fieldset>
             <p class="main__paragraph">
@@ -121,19 +121,19 @@
                   placeholder="Email"
                   pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
                   data-error-message="Проверь электронную почту"
-                  id="text-input"
+                  id="email-input"
                   required
                 />
-                <span class="text-input-error main__input-error main__input-error_active"></span>
+                <span class="text-input-error main__input-error main__input-error_active email-input-error"></span>
               </div>
               <div class="input-text input-text_direction">
                 <input
                   type="text"
-                  class="input-text__textfield"
+                  class="input-text__textfield text-delete"
                   placeholder="Ник в Telegram"
-                  pattern="/^[a-z\d]+$/i"
+                  pattern="[^@/]*"
                   data-error-message="Укажи только ник без url и @"
-                  id="text-input"
+                  id="telegram-input"
                   required
                 />
                 <div class="input-text__two-additions-grid">
@@ -146,7 +146,7 @@
                     class="input-text__question"
                   ></button>
                 </div>
-                <span class="text-input-error main__input-error main__input-error_active"></span>
+                <span class="text-input-error main__input-error main__input-error_active telegram-input-error"></span>
               </div>
             </fieldset>
             <p class="main__paragraph">
@@ -160,11 +160,11 @@
                   class="input-text__textfield"
                   placeholder="Пароль"
                   data-error-message="Поле обязательное"
-                  id="text-input"
+                  id="password-input"
                   required
                 />
                 <button class="input-text__hide-show-text"></button>
-                <span class="text-input-error main__input-error main__input-error_active"></span>
+                <span class="text-input-error main__input-error main__input-error_active password-input-error"></span>
               </div>
               <div class="input-text input-text_direction">
                 <input
@@ -172,11 +172,11 @@
                   class="input-text__textfield"
                   placeholder="Подтвердите пароль"
                   data-error-message="Пароли не совпадают"
-                  id="text-input"
+                  id="password-input-confirmation"
                   required
                 />
                 <button class="input-text__hide-show-text"></button>
-                <span class="text-input-error main__input-error main__input-error_active"></span>
+                <span class="text-input-error main__input-error main__input-error_active password-input-confirmation-error"></span>
               </div>
             </fieldset>
             <fieldset class="main__fieldset">

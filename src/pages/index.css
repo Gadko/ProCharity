@@ -70,6 +70,7 @@
 @import url(../blocks/input-text/__placeholder/_hidden/input-text__placeholder_hidden.css);
 @import url(../blocks/input-text/_disabled/input-text_disabled.css);
 @import url(../blocks/input-text/__big-textfield/input-text__big-textfield.css);
+@import url(../blocks/input-text/__textfield/_error/input-text__textfield_error.css);
 
 @import url(../blocks/input-text/__selector/input-text__selector.css);
 
