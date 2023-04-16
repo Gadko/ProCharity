@@ -70,6 +70,7 @@
 @import url(../blocks/input-text/__placeholder/_hidden/input-text__placeholder_hidden.css);
 @import url(../blocks/input-text/_disabled/input-text_disabled.css);
 @import url(../blocks/input-text/__big-textfield/input-text__big-textfield.css);
+@import url(../blocks/input-text/__arrow/input-text__arrow.css);
 
 @import url(../blocks/input-text/__selector/input-text__selector.css);
 
@@ -195,5 +196,10 @@
 @import url(../blocks/telegram-block/__button-text/telegram-block__button-text.css);
 @import url(../blocks/telegram-block/__button-image/telegram-block__button-image.css);
 
-@import url(../blocks/checkbox/__text/checkbox__text.css);
 
+@import url(../blocks/competitions/competitions.css);
+@import url(../blocks/competitions/__checkbox/competitions__checkbox.css);
+@import url(../blocks/competitions/__menu/competitions__menu.css);
+@import url(../blocks/competitions/__menu/_openned/competitions__menu_openned.css);
+@import url(../blocks/competitions/__submenu/competitions__submenu.css);
+@import url(../blocks/competitions/__toggle-button/competitions__toggle-button.css);

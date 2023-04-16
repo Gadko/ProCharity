@@ -83,6 +83,10 @@ module.exports = {
       filename: 'contacts.html',
       template: './src/contacts.html'
     }),
+    new HtmlWebpackPlugin({
+      filename: 'competitions.html',
+      template: './src/competitions.html'
+    }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
 

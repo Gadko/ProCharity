@@ -1,0 +1,18 @@
+.competitions__submenu {
+    display : none;
+    position: absolute; /* Позиция будет относительно класса __menu_openned, потому что у него relative */
+    left : 100%;
+    top: 0;
+
+    margin-left: 0;
+
+    /* Вот этот параметр отвечает за __checkbox, потому что у него стоит width:100%*/
+    width: 256px;
+
+    /* Чтобы пункты были сверху вниз друг за другом */
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    padding: 0;
+}
