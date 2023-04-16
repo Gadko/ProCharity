@@ -9,6 +9,16 @@
 </head>
 <body>
   <main class="page">
+    <div class="popup popup_openedd">
+      <div class="popup__container">
+        <h2 class="popup__title">Выберите фрагмент изображения</h2>
+        <form id="imagePopup" class="popup__fieldset popup__fieldset_image-popup">
+          <div class="popup__image-edit"></div>
+          <input type="button" class="popup__btn popup__btn_save" id="sendImage" value="Сохранить">
+          <input type="button" class="popup__close-cross">
+        </form>
+      </div>
+    </div>
     <section class="contacts">  
       <div class="sidebar">
         <ul class="stepper">
@@ -70,6 +80,7 @@
         </div> 
         <!--Конец блока статуса и прогресс бара.-->
       </div>
+      
       <div class="main">
         <h1 class="main__header">Личные данные</h1>
         <form class="main__form">
@@ -77,7 +88,10 @@
             <div class="image-edit">
               <div class="image-edit__image" for="editImage">
                   <input type="file" accept=".jpg,.png" id="editImage" hidden>
-                  <label for="editImage" class="link link_all-block-size">добавить фотографию</label>
+                  <div>
+                    <label for="editImage" class="link link_all-block-size">добавить фотографию</label>
+                    <input type="button" class="image-edit__delete image-edit__delete_active">
+                  </div>  
               </div>
               <div class="image-edit__image-rules">
                   <span>Jpg, png </span>
@@ -150,7 +164,7 @@
               <div class="input-text__placeholder input-text__placeholder_small">
                 <span>Ник в Telegram</span>
               </div>
-              <input type="text" class="input-text__textfield input-text__textfield_with-placeholder" id="text-input" pattern="^[A-Za-z0-9\_\-]">
+              <input type="text" class="input-text__textfield input-text__textfield_with-placeholder" id="text-input" pattern="^[A-Za-z\d_]{5,32}$" required>
               <span class="text-input-error main__input-error"></span>
               <div class="input-text__two-additions-grid">
                 <button aria-label="Очистить" class="input-text__delete input-text__delete_for-grid"></button>
@@ -172,7 +186,7 @@
               <span class="text-input-error main__input-error"></span>
               <button aria-label="Открыть список" class="input-text__selector-list"></button>
           </fieldset>
-          <fieldset class="main__fieldset main__fieldset_column">
+          <fieldset class="main__fieldset main__fieldset_column main__fieldset_two-choices">
             <div class="main__two-choices" id="text-input">
               <input name="whoami" type="radio" id="whoami1" class="main__hidden-choice"  value="solo">
               <label for="whoami1" class="main__choice">я Частное лицо</label>
