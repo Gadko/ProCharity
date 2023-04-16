@@ -197,6 +197,11 @@
 @import url(../blocks/telegram-block/__button-image/telegram-block__button-image.css);
 
 
+
+@import url(../blocks/tooltip-text/tooltip-text.css);
+@import url(../blocks/tooltip-text/_notifications-block/tooltip-text_notifications-block.css);
+@import url(../blocks/input-text/__delete/_telegram-input/input-text__delete_telegram-input.css);
+
 @import url(../blocks/competitions/competitions.css);
 @import url(../blocks/competitions/__checkbox/competitions__checkbox.css);
 @import url(../blocks/competitions/__menu/competitions__menu.css);
