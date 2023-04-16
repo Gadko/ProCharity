@@ -12,12 +12,12 @@ competitions.addEventListener("click", (event) => {
       competitionsMenu.classList.toggle('competitions__menu_openned');
   });
 
-  window.addEventListener("click", (event) => {
-    event.preventDefault();
-    if(!event.target.classList.contains('input-text__textfield')){
-      competitionsMenu.classList.remove('competitions__menu_openned');
-    }
-  }, true);
+  // window.addEventListener("click", (event) => {
+  //   event.preventDefault();
+  //   if(!event.target.classList.contains('input-text__textfield')){
+  //     competitionsMenu.classList.remove('competitions__menu_openned');
+  //   }
+  // }, true);
 
 const testCompetitionst = new Competitions (competitionsMenu, tagifyInput);
 testCompetitionst.createList(test);
