@@ -1,0 +1,15 @@
+.competitions__toggle-button {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 4px;
+    border: 1px solid rgba(0, 0, 0, .1);
+
+    width: 358px;
+    height: 40px;
+
+    background: #FFFFFF;
+}

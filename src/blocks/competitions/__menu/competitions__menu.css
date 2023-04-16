@@ -1,0 +1,16 @@
+.competitions__menu{
+    display : none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    /* Чтобы пункты были сверху вниз друг за другом */
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    list-style: none;
+    padding: 0;
+
+    z-index: 10;
+}
