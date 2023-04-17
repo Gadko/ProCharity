@@ -5,14 +5,14 @@
     position: relative;
 }
 
-.input-text__question:hover .tooltip-text::after {
+.input-text__question_notifications:hover .tooltip-text_notifications-block::after {
     top: -26px;
     right: 272px;
     border-color: transparent transparent #fff transparent;
 }
 
 @media (max-width: 1024px){
-    .input-text__question:hover .tooltip-text::after {
+    .input-text__question_notifications:hover .tooltip-text_notifications-block::after {
         top: -24px;
         right: 26px;
         border-color: transparent transparent #fff transparent;
