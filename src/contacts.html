@@ -71,7 +71,7 @@
         <!--Конец блока статуса и прогресс бара.-->
       </div>
       <div class="main">
-        <h1 class="main__header">Личные данные</h1>
+        <h1 class="main__header main__header_no-registration">Личные данные</h1>
         <form class="main__form">
           <fieldset class="main__fieldset main__fieldset_column">
             <div class="image-edit">
@@ -107,8 +107,8 @@
               </div>
               <input type="text" class="input-text__textfield input-text__textfield_with-placeholder" />
               <div class="input-text__two-additions-grid">
-                <button aria-label="Очистить" class="input-text__delete"></button>
-                <button aria-label="Календарь" class="input-text__calendar"></button>
+                <button aria-label="Очистить" class="input-text__delete input-text__delete_telegram-input"></button>
+                <button aria-label="Календарь" class="input-text__calendar "></button>
               </div>
             </div>
             <div class="input-text">
@@ -141,8 +141,18 @@
               </div>
               <input type="text" class="input-text__textfield input-text__textfield_with-placeholder" />
               <div class="input-text__two-additions-grid">
-                <button aria-label="Очистить" class="input-text__delete"></button>
-                <button aria-label="Подсказка" class="input-text__question"></button>
+                <button
+                        aria-label="Очистить"
+                        class="input-text__delete input-text__delete_telegram-input"
+                ></button>
+                <button
+                        type="button"
+                        aria-label="Подсказка"
+                        class="input-text__question"
+                >
+                    <span class="tooltip-text">Если тебе удобнее, чтобы представители фондов писали в Telegram,
+                      укажи свой ник (без @ и url)</span>
+                </button>
               </div>
             </div>
             <div class="input-text">
@@ -158,6 +168,7 @@
                 <option>Электронная почта и Telegram</option>
               </select>
               <button aria-label="Очистить" class="input-text__selector-list"></button>
+            </div>
           </fieldset>
           <fieldset class="main__fieldset main__fieldset_column">
             <div class="main__two-choices">
@@ -170,7 +181,7 @@
           <fieldset class="main__fieldset main__fieldset_columns">
             <div class="input-text">
               <div class="input-text__placeholder input-text__placeholder_normal">
-                <label for="select1">Выбрать компанию</span>
+                <label for="select1">Выбрать компанию</label>
               </div>
               <select class="input-text__selector" name="" id="select1" >
                 <option hidden value=""></option>
@@ -180,7 +191,7 @@
             </div>
             <div class="input-text">
               <div class="input-text__placeholder input-text__placeholder_normal">
-                <label for="select1">Выбрать компанию</span>
+                <label for="select1">Выбрать компанию</label>
               </div>
               <select class="input-text__selector" name="" id="select1" >
                 <option hidden value=""></option>
