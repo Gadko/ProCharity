@@ -1,0 +1,11 @@
+.checkbox__stile {
+    box-sizing: border-box;
+    display: block;
+    width: 16px;
+    height: 16px;
+    border: none;
+    background-color: #f1f5f9;
+    border-radius: 2px;
+    position: absolute;
+    margin-top: 4px;
+}

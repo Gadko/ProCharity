@@ -20,10 +20,10 @@ export function suggestionItemTemplate(tagData){
             class='tagify__dropdown__item ${tagData.class ? tagData.class : ""}'
             tabindex="0"
             role="option">
-              <div class="main__checkbox">
-              <label class="main__checkbox-content">
-                <input type="checkbox" class="main__checkbox-input" />
-                <span class="main__checkbox-stile"></span>
+              <div class="checkbox">
+              <label class="checkbox__content">
+                <input type="checkbox" class="checkbox__input" />
+                <span class="checkbox__stile"></span>
                 ${tagData.value}
               </label>
               </div>
