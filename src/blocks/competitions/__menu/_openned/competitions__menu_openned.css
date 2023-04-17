@@ -1,7 +1,3 @@
 .competitions__menu_openned {
     display : flex;
 }
-
-.competitions__menu_openned li:hover > .competitions__submenu {
-    display : flex;
-  }

@@ -1,0 +1,10 @@
+.tagify__tag__removeBtn::after {
+  content: '';
+  background-image: url(../../../../images/delete-white.png);
+  width: 10px;
+  height: 10px;
+}
+
+.tagify__tag__removeBtn:hover {
+  background: none;
+}
