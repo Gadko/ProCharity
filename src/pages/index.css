@@ -209,6 +209,19 @@
 @import url(../blocks/competitions/__submenu/competitions__submenu.css);
 @import url(../blocks/competitions/__toggle-button/competitions__toggle-button.css);
 
+@import url(../blocks/competitions/__input-checkbox/competitions__input-checkbox.css);
+@import url(../blocks/competitions/__label-checkbox/competitions__label-checkbox.css);
+
+/* tagify Start */
+@import url(../blocks/tagify/tagify.css); /*Пустой*/
+@import url(../blocks/tagify/__input/tagify__input.css);
+@import url(../blocks/tagify/_error/tagify_error.css);
+@import url(../blocks/tagify/__tag/tagify__tag.css);
+@import url(../blocks/tagify/__tag-text/tagify__tag-text.css);
+@import url(../blocks/tagify/__tag/__removeBtn/tagify__tag__removeBtn.css);
+
+
 @import url(../blocks/main/__paragraph/_notifications/main__paragraph_notifications.css);
 @import url(../blocks/main/__header/_no-registration/main__header_no-registration.css);
 @import url(../blocks/main/__btns/_competitions-block/main__btns_competitions-block.css);
+
