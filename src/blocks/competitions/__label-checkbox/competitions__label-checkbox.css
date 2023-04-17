@@ -1,0 +1,23 @@
+.competitions__label-checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.competitions__label-checkbox::before {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #F1F5F9;
+  border-radius: 2px;
+  margin-right: 8px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+}
+
+.competitions__input-checkbox:checked+.competitions__label-checkbox::before {
+  background-image: url(../../../images/add-checkbox.svg);
+  background-color: #72D0DC;
+  background-size: 10px 7px;
+}

@@ -1,0 +1,8 @@
+.tagify {
+  box-sizing: border-box;
+  --tag-inset-shadow-size: 8.1em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 12px 50px 12px 16px;
+}

@@ -61,10 +61,12 @@ export default class Competitions {
       entry.values.forEach((value) => {
         let checkbox = document.createElement("input");
         checkbox.type = "checkbox";
+        checkbox.className = "competitions__input-checkbox"
         checkbox.name = id;
 
         let label = document.createElement("label");
         label.htmlFor = id;
+        label.className = "competitions__label-checkbox"
         label.innerText = value;
 
         let clickableCheckbox = document.createElement("div");
