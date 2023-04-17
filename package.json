@@ -33,6 +33,7 @@
     "webpack-dev-server": "^4.13.2"
   },
   "dependencies": {
+    "@yaireo/tagify": "^4.17.8",
     "core-js": "^3.30.0",
     "mdn-data": "^2.0.31"
   }

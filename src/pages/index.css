@@ -71,6 +71,9 @@
 @import url(../blocks/input-text/_disabled/input-text_disabled.css);
 @import url(../blocks/input-text/__big-textfield/input-text__big-textfield.css);
 @import url(../blocks/input-text/__arrow/input-text__arrow.css);
+@import url(../blocks/input-text/__textfield/_error/input-text__textfield_error.css);
+@import url(../blocks/input-text/__error-massage/input-text__error-massage.css);
+@import url(../blocks/input-text/__error-massage/_active/input-text__error-massage_active.css);
 
 @import url(../blocks/input-text/__selector/input-text__selector.css);
 
@@ -208,3 +211,26 @@
 @import url(../blocks/competitions/__menu/_openned/competitions__menu_openned.css);
 @import url(../blocks/competitions/__submenu/competitions__submenu.css);
 @import url(../blocks/competitions/__toggle-button/competitions__toggle-button.css);
+
+
+@import url(../blocks/competitions-mobile/competitions-mobile.css);
+@import url(../blocks/competitions-mobile/_openned/competitions-mobile_opened.css);
+@import url(../blocks/competitions-mobile/__close/competitions-mobile__close.css);
+@import url(../blocks/competitions-mobile/__form/competitions-mobile__form.css);
+@import url(../blocks/competitions-mobile/__title/competitions-mobile__title.css);
+@import url(../blocks/competitions-mobile/__list/competitions-mobile__list.css);
+@import url(../blocks/competitions-mobile/__selection/competition-popup__selection.css);
+@import url(../blocks/competitions-mobile/__selection/_reset/competition-popup__selection_reset.css);
+@import url(../blocks/competitions-mobile/__acoprd-content/competitions-mobile__acoprd-content.css);
+@import url(../blocks/competitions-mobile/__acord-body/competitions-mobile__acord-body.css);
+@import url(../blocks/competitions-mobile/__button/competitons-mobile__button.css);
+@import url(../blocks/competitions-mobile/__buttons/competitions-mobile__buttons.css);
+@import url(../blocks/competitions-mobile/__chip/competitions-mobile__chip.css);
+@import url(../blocks/competitions-mobile/__chip/_active/competitions-mobile__chip_active.css);
+@import url(../blocks/competitions-mobile/__container/competitions-mobile__container.css);
+@import url(../blocks/competitions-mobile/__input-stile/competitions-mobile__input-stile.css);
+@import url(../blocks/competitions-mobile/__input-subtitle/competitions-mobile__input-subtitle.css);
+@import url(../blocks/competitions-mobile/__input/competitions-mobile__input.css);
+
+
+@import url(../blocks/tagify/tagify.css);

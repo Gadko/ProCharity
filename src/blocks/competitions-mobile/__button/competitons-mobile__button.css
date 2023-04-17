@@ -1,0 +1,19 @@
+.competitons-mobile__button {
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.15px;
+    color: #048aa7;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    transition: 0.3s;
+    }
+
+    .competitons-mobile__button:hover {
+        opacity: 0.6;
+    }
