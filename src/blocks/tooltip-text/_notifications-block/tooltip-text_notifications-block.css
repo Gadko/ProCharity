@@ -7,7 +7,7 @@
 }
 
 @media (max-width: 1024px){
-    .tooltip-text {
+    .tooltip-text_notifications-block {
         max-width: 312px;
         min-width: 312px;
         left: -258px;
