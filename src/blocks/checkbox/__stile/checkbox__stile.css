@@ -7,5 +7,7 @@
     background-color: #f1f5f9;
     border-radius: 2px;
     position: absolute;
+    top: 0;
     margin-top: 4px;
+    padding-left: 16px;
 }

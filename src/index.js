@@ -5,7 +5,7 @@ import Textarea from "./components/Textarea.js";
 const textarea = new Textarea(formTextarea, '.input-text__counter')
 textarea.enableTextarea()
 
-import img from './images/chevron-up.svg'
+import img from './images/chevron-down.svg'
 
 import { tagTemplate, suggestionItemTemplate } from './utils/tagify_templates.js';
 
