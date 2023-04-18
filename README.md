@@ -44,5 +44,6 @@
 
 ## Макет проекта
 
-Ссылка на макеты в Figma:
+Ссылка на макеты в Figma и Бриф:
 * [Макеты в Figma](https://www.figma.com/file/8FKHIxAgoDSkHRRMWeCxvm/Тестовая-версия-для-дизайнеров?node-id=304-43792&t=ScV9mO8WPiQrf2C8-0)
+* [Бриф](https://www.notion.so/Procharity-21-f24c880905844ce883efd18a0f39472d)
