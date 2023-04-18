@@ -10,6 +10,7 @@
     font-size: 16px;
     line-height: 24px;
     overflow: auto;
+
 }
 
 .input-text__textfield::-webkit-calendar-picker-indicator {
@@ -18,3 +19,7 @@
     background: url(//www.gravatar.com/avatar/cbfaff96665b7567defe1b34a883db8b?s=16&d=identicon&r=PG) no-repeat center;
     background-size: contain;
   }
+
+    width: 100%;
+}
+

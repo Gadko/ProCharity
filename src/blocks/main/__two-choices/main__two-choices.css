@@ -4,7 +4,7 @@
     border-radius: 6px;
     flex-direction: row;
     justify-content: space-between;
-    margin: 32px 0 00px 0;
+    margin: 32px 0 20px 0;
 }
 
 @media screen and (max-width: 1024px) {

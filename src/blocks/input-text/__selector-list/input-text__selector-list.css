@@ -1,4 +1,4 @@
-.input-text__hide-show-text {
+.input-text__selector-list {
     position: relative;
     min-width: 24px;
     max-height: 24px;
@@ -6,8 +6,8 @@
     right: 36px;
     padding: 0;
     border: none;
-    background-color: transparent;
-    background-image: url(../../../images/eye.png);
+    background: none;
+    background-image: url(../../../images/arrow.png);
     background-position: center;
     cursor: pointer;
 }

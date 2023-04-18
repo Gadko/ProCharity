@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ProCharity</title>
+  <link rel="alternate" hreflang="Ru" href="#" />
+</head>
+<body>
+<main class="page">
+  <section class="notifications">
+    <div class="sidebar">
+      <ul class="stepper">
+        <p class="breadcrumbs">
+          <span><a class="link" href="#">Личный кабинет</a></span> /
+          Настройки
+        </p>
+        <li class="stepper__step-mobile stepper__step-mobile_active">
+          <a href="#" class="stepper__step stepper__step_active"> Уведомления </a>
+        </li>
+        <li class="stepper__step-mobile stepper__step-mobile_disabled">
+          <a href="#" class="stepper__step"> Профиль </a>
+        </li>
+        <li class="stepper__step-mobile stepper__step-mobile_disabled">
+          <a href="#" class="stepper__step">
+            Смена пароля
+          </a>
+        </li>
+      </ul>
+      <div class="stepper__mobile-description">
+        <p class="stepper__mobile-description-name">Настройки</p>
+      </div>
+      <!--Статус. Меняется при добавлении соответствующих модификаторов для status__container и status__text. На этой странице не нужен, но я добавил пока что сюда, что бы использовать на других страницах-->
+      <div class="status">
+        <h3 class="status__title">Статус профиля</h3>
+        <div class="status__container status__container_orange">
+          <p class="status__text status__text_confirmed"></p>
+          <button class="status__question"></button>
+        </div>
+      </div>
+    </div>
+    <div class="main main_notifications-block">
+      <h1 class="main__header">Уведомления</h1>
+      <form class="main__form">
+        <p class="main__paragraph">Отметь события, оповещения о которых ты хотел бы получать на email:</p>
+        <fieldset class="main__fieldset main__fieldset_column">
+          <div class="checkbox checkbox_notifications">
+            <input
+                    type="checkbox"
+                    class="checkbox__checkbox-hidden checkbox__checkbox-hidden_notifications"
+                    id="checkbox-hidden-change"
+                    checked
+            />
+            <label
+                    for="checkbox-hidden-change"
+                    class="checkbox__checkbox-on-screen"
+            ></label>
+            <span class="checkbox__text">изменения по моим заданиям</span
+            >
+            <button
+                    aria-label="Подсказка"
+                    class="input-text__question input-text__question_notifications"
+            ></button>
+          </div>
+          <div class="checkbox checkbox_notifications">
+            <input
+                    type="checkbox"
+                    class="checkbox__checkbox-hidden"
+                    id="checkbox-hidden-fond"
+                    checked
+            />
+            <label
+                    for="checkbox-hidden-fond"
+                    class="checkbox__checkbox-on-screen"
+            ></label>
+            <span class="checkbox__text">фонд выбрал другого исполнителя</span>
+          </div>
+          <div class="checkbox checkbox_notifications">
+            <input
+                    type="checkbox"
+                    class="checkbox__checkbox-hidden"
+                    id="checkbox-hidden-task"
+                    checked
+            />
+            <label
+                    for="checkbox-hidden-task"
+                    class="checkbox__checkbox-on-screen"
+            ></label>
+            <span class="checkbox__text">подборка заданий по моим компетенциям (раз в неделю)</span>
+          </div>
+          <div class="checkbox checkbox_notifications">
+            <input
+                    type="checkbox"
+                    class="checkbox__checkbox-hidden"
+                    id="checkbox-hidden-task-moth"
+                    checked
+            />
+            <label
+                    for="checkbox-hidden-task-moth"
+                    class="checkbox__checkbox-on-screen"
+            ></label>
+            <span class="checkbox__text" >новые задания по моим компетенциям (по мере появления)</span>
+          </div>
+        </fieldset>
+        <div class="telegram-block">
+          <p class="telegram-block__caption">Получай уведомления о новых заданиях от бота ProCharity в Telegram. При этом рекомендуем отключить уведомления на email из пункта выше.</p>
+          <a href="#" target='_blank' class="telegram-block__button">
+            <div class="telegram-block__button-image"></div>
+            <span class="telegram-block__button-text">Подключить</span>
+          </a>
+        </div>
+        <div class="main__btns main__btns_password-block">
+          <button type="submit" class="btn btn__registration">
+            Сохранить
+          </button>
+        </div>
+      </form>
+    </div>
+    <div class="status status_mobile">
+      <h3 class="status__title">Статус профиля</h3>
+      <div class="status__container status__container_blue">
+        <p class="status__text status__text_edits"></p>
+        <button class="status__question"></button>
+      </div>
+    </div>
+  </section>
+</main>
+</body>
+</html>
