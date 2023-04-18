@@ -1,0 +1,52 @@
+.cropper-dashed {
+    border: none;
+}
+
+.cropper-crop-box {
+    border-radius: 50%;
+}
+
+.cropper-view-box {
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px #7DCDD7;
+    outline: 0;
+}
+
+.cropper-point {
+    background-color: #7DCDD7;
+    opacity: 1;
+    width: 8px;
+    height: 8px;
+    position: absolute;
+}
+
+.point-ne,
+.point-nw,
+.point-se,
+.point-sw {
+    display: none;
+}
+
+.cropper-line {
+    display: none;
+}
+
+.cropper-point.point-e {
+    right: -5px;
+    top: calc(50% -4px);
+}
+
+.cropper-point.point-n {
+    left: calc(50% -4px);
+    top: -5px;
+}
+
+.cropper-point.point-s {
+    bottom: -5px;
+    right: calc(50% -4px);
+}
+
+.cropper-point.point-w {
+    left: -5px;
+    top: calc(50% -4px);
+}

@@ -1,0 +1,16 @@
+.image-edit__delete {
+    position: absolute;
+    background: none;
+    background-image: url(../../../images/delete-avatar.svg);
+    top: -4px;
+    right: -10px;
+    padding: 0;
+    width: 24px;
+    height: 24px;
+    background-position: center;
+    border: none;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s ease-in;
+}

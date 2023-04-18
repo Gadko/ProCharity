@@ -1,0 +1,6 @@
+.input-text__delete_for-grid {
+    position: relative;
+    right: 0;
+    display: flex;
+    justify-self: center;
+}

@@ -2,7 +2,6 @@
 @import url(../../vendor/normalize.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/_color/page_color_gray.css);
-
 @import url(../blocks/reg-account/reg-account.css);
 @import url(../blocks/reg-account/__heading/reg-account__heading.css);
 @import url(../blocks/reg-account/__caption/reg-account__caption.css);
