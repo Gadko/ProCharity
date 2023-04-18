@@ -1,5 +1,0 @@
-.image-edit__background_active:hover {
-    visibility: visible;
-    opacity: 1;
-    transition: visibility, opacity .2s linear;
-}

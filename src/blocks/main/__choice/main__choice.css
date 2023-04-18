@@ -18,20 +18,4 @@
 
 .main__choice:first-of-type{
     border-left: none;
-
-}
-
-@media screen and (max-width: 1024px) {
-    .main__choice{
-        border-left: none;
-        border-top: 1px solid #048AA7;
-        width: auto;
-        display: flex;
-        justify-content: center;
-    }
-
-    .main__choice:first-of-type {
-        border-top: none;
-    }
-
 }
