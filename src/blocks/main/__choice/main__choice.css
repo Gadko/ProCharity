@@ -1,0 +1,35 @@
+.main__choice {
+    border: none;
+    border-left: 1px solid #048AA7;
+    width: 50%;
+    background: none;
+    flex-grow: 1;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #048AA7;
+    padding: 16px 32px;
+}
+
+.main__choice:first-of-type{
+    border-left: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .main__choice{
+        border-left: none;
+        border-top: 1px solid #048AA7;
+        width: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .main__choice:first-of-type {
+        border-top: none;
+    }
+}

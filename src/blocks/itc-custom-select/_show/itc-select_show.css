@@ -1,0 +1,7 @@
+.itc-select_show .itc-select__dropdown {
+    display: block;
+  }
+  
+.itc-select_show .itc-select__backdrop {
+    display: block;
+}

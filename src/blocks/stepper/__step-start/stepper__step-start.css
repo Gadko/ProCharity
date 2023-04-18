@@ -1,0 +1,8 @@
+@media (max-width:1024px) {
+  .stepper__step-start {
+    width: 50%;
+    height: 8px;
+    border-radius: 4px 0 0 4px;
+    background-color: #E65609;
+  }
+}

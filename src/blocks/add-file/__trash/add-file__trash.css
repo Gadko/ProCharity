@@ -1,0 +1,10 @@
+.add-file__trash {
+    background-image: url(../../../images/trash.svg);
+    width: 24px;
+    height: 24px;
+
+    background-color: transparent;
+    border: 0;
+
+    cursor: pointer;
+}

@@ -1,0 +1,5 @@
+@media (max-width:1024px) {
+  .stepper__step-mobile_disabled {
+    background-color: #F1F5F9;
+  }
+}

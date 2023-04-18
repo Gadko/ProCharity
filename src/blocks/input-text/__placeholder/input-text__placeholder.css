@@ -1,0 +1,10 @@
+.input-text__placeholder {
+    position: absolute;
+    left: 16px;
+    top: 7px;
+    color: #7B878F;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    pointer-events: none;
+}

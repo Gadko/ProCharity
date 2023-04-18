@@ -1,0 +1,16 @@
+@media screen and (min-width:1024px) {
+    .regemailinfo__text-holder {
+        margin-top: 64px;
+        margin-left: 11%;
+        width: 51%;        
+    }
+}
+
+
+@media screen and (max-width:1024px) {
+    .regemailinfo__text-holder {
+        margin-top: calc(24px + 40 * (100% - 360px) / 664);
+        margin-left: calc(24px + 89 * (100% - 360px) / 664);
+        width: calc(312px + 486 * (100% - 360px) / 664);        
+    }
+}

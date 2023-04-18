@@ -1,0 +1,15 @@
+.input-text__hide-show-text {
+    position: absolute;
+    min-width: 24px;
+    max-height: 24px;
+    height: 24px;
+    width: 24px;
+    top: 12px;
+    right: 12px;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    background-image: url(../../../images/eye.png);
+    background-position: center;
+    cursor: pointer;
+}

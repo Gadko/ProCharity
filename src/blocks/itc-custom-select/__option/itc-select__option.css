@@ -1,0 +1,11 @@
+.itc-select__option {
+  padding: 12px 12px 16px 12px;
+  color: #58646A;
+}
+
+.itc-select__option:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+    transition: 0.2s background-color ease-in-out;
+  }
+

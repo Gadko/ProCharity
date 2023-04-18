@@ -1,0 +1,8 @@
+.regemailinfo__email{
+    color: #7DCDD7;
+}
+ 
+.regemailinfo__email:hover{
+    color: #7DCDD7;
+    text-decoration: none ;
+}

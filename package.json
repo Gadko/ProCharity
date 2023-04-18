@@ -33,6 +33,8 @@
     "webpack-dev-server": "^4.13.2"
   },
   "dependencies": {
-    "core-js": "^3.30.0"
+    "core-js": "^3.30.0",
+    "cropperjs": "^1.5.13",
+    "mdn-data": "^2.0.31"
   }
 }

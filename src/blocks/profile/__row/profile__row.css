@@ -1,0 +1,7 @@
+.profile__row {
+    color: #58646A;
+}
+
+.profile__row::marker {
+    color: #72D0DC;
+}

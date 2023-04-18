@@ -1,0 +1,18 @@
+.stepper__registration {
+  color: #E6560A;
+  cursor: default;
+}
+
+.stepper__registration::before {
+  counter-reset: section;
+  content: '';
+  background-image: url(../../../images/icon-profile.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #E6560A;
+  background-size: 20px 20px;
+}
+
+.stepper__registration:hover {
+  opacity: 1;
+}
