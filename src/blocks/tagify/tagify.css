@@ -86,7 +86,7 @@
     max-width: 736px;
   }
   
-  @media screen and (max-width: 856px) {
+  @media screen and (max-width: 1024px) {
     .tagify__dropdown__wrapper {
       display: none;
     }

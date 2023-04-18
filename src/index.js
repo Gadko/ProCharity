@@ -1,5 +1,5 @@
 import "./pages/index.css"
-import { formTextarea, whitelistValue, inputElm } from "./utils/constants.js";
+import { formTextarea, whitelistValue, inputElm, inputMobile, buttonMobileClose, buttonMobileOpen } from "./utils/constants.js";
 import Textarea from "./components/Textarea.js";
 
 const textarea = new Textarea(formTextarea, '.input-text__counter')
@@ -8,6 +8,13 @@ textarea.enableTextarea()
 import img from './images/chevron-down.svg'
 
 import { tagTemplate, suggestionItemTemplate } from './utils/tagify_templates.js';
+
+buttonMobileOpen.addEventListener('click', () => {
+  inputMobile.classList.add('competitions-mobile_opened')
+});
+buttonMobileClose.addEventListener('click', () => {
+  inputMobile.classList.remove('competitions-mobile_opened')
+})
 
 let tagify = new Tagify(inputElm, {
     userInput : false,
