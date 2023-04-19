@@ -1,14 +1,12 @@
 .input-text__question {
-
-    position: absolute;
-    width: 24px;
-    height: 24px;
+    position: relative;
+    min-width: 24px;
+    max-height: 24px;
     top: 12px;
-    right: 36px;
+    right: 14px;
     padding: 0;
     border: none;
-    background: none;
-
+    background-color: transparent;
     background-image: url(../../../images/question.png);
     background-position: center;
     cursor: pointer;

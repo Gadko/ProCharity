@@ -18,7 +18,6 @@
 
 .main__choice:first-of-type{
     border-left: none;
-
 }
 
 @media screen and (max-width: 1024px) {
@@ -33,5 +32,4 @@
     .main__choice:first-of-type {
         border-top: none;
     }
-
 }

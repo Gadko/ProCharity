@@ -1,5 +1,4 @@
 import "./pages/index.css"
-
 import { formTextarea, editAvatar } from "./utils/constants.js";
 import Textarea from "./components/Textarea.js";
 import Cropper from "../node_modules/cropperjs/dist/cropper.js"
@@ -26,4 +25,5 @@ cropper.options.guides = false;
 cropper.options.center = false;
 cropper.options.cropBoxMovable = false;
 cropper.options.background = false;
+
 
