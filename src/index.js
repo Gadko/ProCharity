@@ -136,7 +136,7 @@ const select1 = new ItcCustomSelect('#select-1');
 const select2 = new ItcCustomSelect('#select-2');
     
 
-editAvatar.src = "https://img3.akspic.ru/previews/5/5/4/1/7/171455/171455-zhivopis-illustracia-art-voda-oblako-500x.jpg"
+editAvatar.src = "https://wp-s.ru/wallpapers/6/2/288535681420729/velikolepnyj-leopard-smotrit-vdal.jpg"
 const cropper = new Cropper(editAvatar, {
     aspectRatio: 1/1,
     autoCropArea: 1
