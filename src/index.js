@@ -18,6 +18,7 @@ const textarea = new Textarea(formTextarea, ".input-text__counter");
 textarea.enableTextarea();
 
 import img from "./images/chevron-down.svg";
+import ava from "./images/avatar-test.png";
 
 import {
   tagTemplate,
@@ -151,8 +152,7 @@ const select1 = new ItcCustomSelect("#select-1");
 
 const select2 = new ItcCustomSelect("#select-2");
 
-editAvatar.src =
-  "https://wp-s.ru/wallpapers/6/2/288535681420729/velikolepnyj-leopard-smotrit-vdal.jpg";
+editAvatar.src = ava;
 const cropper = new Cropper(editAvatar, {
   aspectRatio: 1 / 1,
   autoCropArea: 1,
