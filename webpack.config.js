@@ -76,10 +76,6 @@ module.exports = {
       template: './src/profile.html'
     }),
     new HtmlWebpackPlugin({
-      filename: 'notifications.html',
-      template: './src/notifications.html'
-      }),
-    new HtmlWebpackPlugin({
       filename: 'contacts.html',
       template: './src/contacts.html'
     }),

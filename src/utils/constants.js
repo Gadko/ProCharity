@@ -32,3 +32,7 @@ export const whitelistValue = [
       id: 5
   }
 ].map(item => ({ ...item, class: `group_${item.id}` }));
+
+export const editAvatar = document.querySelector('.popup__image')
+export const profileAvatar = document.querySelector('.image-edit__profile-image')
+
