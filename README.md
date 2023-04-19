@@ -41,6 +41,8 @@
 * JavaScript
 * Webpack
 * ООП
+* Cropper
+* Tagify
 
 ## Макет проекта
 
