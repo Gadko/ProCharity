@@ -58,7 +58,7 @@
               <button class="status__question"></button>
             </div>
           </div>
-          <!--Прогресс бар,на этой странице не нужен, но я добавил пока что сюда, что бы использовать на других страницах-->
+          <!--Прогресс бар, на этой странице не нужен, но я добавил пока что сюда, что бы использовать на других страницах-->
           <div class="progress progress_dusabled">
             <h3 class="progress__title">Профиль заполнен на 66%</h3>
             <div class="progress__bar-container">
@@ -80,6 +80,9 @@
         <div class="main">
           <h1 class="main__header">Регистрация нового волонтера</h1>
           <form class="main__form">
+            <p class="main__paragraph main__paragraph_notifications">
+              Представители фондов увидят эти данные на твоей странице
+            </p>
             <fieldset class="main__fieldset main__fieldset_columns">
               <div class="input-text input-text_direction">
                 <input
@@ -154,12 +157,12 @@
                 <div class="input-text__two-additions-grid">
                   <button
                     aria-label="Очистить"
-                    class="input-text__delete input-text__delete_telegram-input"
+                    class="input-text__delete input-text__delete_for-grid"
                   ></button>
                   <button
                     type="button"
                     aria-label="Подсказка"
-                    class="input-text__question"
+                    class="input-text__question input-text__question_for-grid"
                   >
                     <span class="tooltip-text"
                       >Если тебе удобнее, чтобы представители фондов писали в
@@ -168,10 +171,10 @@
                   </button>
                   
                 </div>
+                <span
+                        class="text-input-error main__input-error main__input-error_active"
+                ></span>
               </div>
-              <span
-                    class="text-input-error main__input-error main__input-error_active"
-                  ></span>
             </fieldset>
             <p class="main__paragraph">
               Пароль должен содержать не менее 8 знаков и может включать
