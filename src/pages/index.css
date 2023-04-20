@@ -175,6 +175,15 @@
 @import url(../blocks/input-text/__hide-show-text/_hidden/input-text__hide-show-text_hidden.css);
 @import url(../blocks/main/_password-block/main_password-block.css);
 @import url(../blocks/main/__btns/_password-block/main__btns_password-block.css);
+@import url(../blocks/main/_notifications-block/main_notifications.css);
+
+
+@import url(../blocks/notifications/notifications.css);
+@import url(../blocks/checkbox/_notifications/checkbox_notifications.css);
+@import url(../blocks/telegram-block/__button-image/telegram-block__button-image.css);
+@import url(../blocks/telegram-block/__button-text/telegram-block__button-text.css);
+@import url(../blocks/telegram-block/__button/telegram-block__button.css);
+@import url(../blocks/telegram-block/telegram-block.css);
 
 /* MOTIVATION START */
 @import url(../blocks/motivation/motivation.css);

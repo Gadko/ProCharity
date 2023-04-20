@@ -13,16 +13,16 @@
       <div class="popup__container">
         <h2 class="popup__title">Выберите фрагмент изображения</h2>
         <form id="imagePopup" class="popup__fieldset popup__fieldset_image-popup">
-          <img class="popup__image">
+          <img alt="Картинка" src="#" class="popup__image">
           <input type="button" class="popup__btn popup__btn_save" id="sendImage" value="Сохранить">
-          <input type="button" class="popup__close-cross">
+          <input type="button" class="popup__close-cross" value="Закрыть">
         </form>
       </div>
     </div>
     <section class="contacts">  
       <div class="sidebar">
         <ul class="stepper">
-          <p class="breadcrumbs"><span><a class="link" href="#">Личный кабинет</a></span> / Мои данные</p>
+          <li class="breadcrumbs"><span><a class="link" href="#">Личный кабинет</a></span> / Мои данные</li>
           <li class="stepper__step-mobile stepper__step-mobile_disabled">
             <a
               href="#"
@@ -84,16 +84,16 @@
         <form class="main__form">
           <fieldset class="main__fieldset main__fieldset_column">
             <div class="image-edit">
-              <div class="image-edit__image" for="editImage">
+              <div class="image-edit__image">
                   <input type="file" accept=".jpg,.png" id="editImage" hidden>
                   
                   <div class="image-edit__background">
-                    <img class="image-edit__profile-image">
-                    <img class="image-edit__background-icon">
+                    <img src="#" alt="Картинка профиля" class="image-edit__profile-image">
+                    <img src="#" alt="иконка" class="image-edit__background-icon">
                   </div>
                   
                     <label for="editImage" class="link link_all-block-size">добавить фотографию</label>
-                    <input type="button" class="image-edit__delete image-edit__delete_active">
+                    <input type="button" value="Удалить изображение" class="image-edit__delete image-edit__delete_active">
                   
               </div>
               <div class="image-edit__image-rules">
@@ -118,7 +118,7 @@
                 <span>Фамилия</span>
               </div>
               <input type="text" class="input-text__textfield input-text__textfield_with-placeholder" pattern="[^0-9]*"
-              data-error-message="Может содержать только буквы и специальные символы" id="text-input" required/>
+              data-error-message="Может содержать только буквы и специальные символы" id="text-input-2" required/>
               <span class="text-input-error main__input-error"></span>
               <button aria-label="Очистить" class="input-text__delete"></button>
             </div>
@@ -138,7 +138,7 @@
                 <span>Город</span>
               </div>
                 <input type="text" class="input-text__textfield input-text__textfield_with-placeholder" pattern="[^0-9]*"
-                data-error-message="Может содержать только буквы и специальные символы" id="text-input" required/> <!-- Есть город в названии которого есть знаки припинания) -->
+                data-error-message="Может содержать только буквы и специальные символы" id="text-input-3" required/> <!-- Есть город в названии которого есть знаки припинания) -->
                 <span class="text-input-error main__input-error"></span>
                 <button aria-label="Очистить" class="input-text__delete"></button>
               </div>
@@ -150,7 +150,7 @@
                 <span>Электронная почта</span>
               </div>
               <input type="email" class="input-text__textfield input-text__textfield_with-placeholder" 
-              data-error-message="Проверь электронную почту" id="text-input"/>
+              data-error-message="Проверь электронную почту" id="text-input-4"/>
               <span class="text-input-error main__input-error"></span>
               <button aria-label="Очистить" class="input-text__delete"></button>
             </div>
@@ -158,7 +158,7 @@
               <div class="input-text__placeholder input-text__placeholder_small">
                 <span>Телефон</span>
               </div>
-              <input type="text" class="input-text__textfield input-text__textfield_with-placeholder" id="text-input"
+              <input type="text" class="input-text__textfield input-text__textfield_with-placeholder" id="text-input-5"
               data-error-message="Необходимо корректный номер телефона" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$">
               <span class="text-input-error main__input-error"></span>
               <button aria-label="Очистить" class="input-text__delete"></button>
@@ -167,7 +167,7 @@
               <div class="input-text__placeholder input-text__placeholder_small">
                 <span>Ник в Telegram</span>
               </div>
-              <input type="text" class="input-text__textfield input-text__textfield_with-placeholder" id="text-input" pattern="^[A-Za-z\d_]{5,32}$" required>
+              <input type="text" class="input-text__textfield input-text__textfield_with-placeholder" id="text-input-6" pattern="^[A-Za-z\d_]{5,32}$" required>
               <span class="text-input-error main__input-error"></span>
               <div class="input-text__two-additions-grid">
                 <button aria-label="Очистить" class="input-text__delete input-text__delete_for-grid"></button>
@@ -193,9 +193,10 @@
                 </div>
               </div>
               <span class="text-input-error main__input-error"></span>
+              </div>
           </fieldset>
           <fieldset class="main__fieldset main__fieldset_column main__fieldset_two-choices">
-            <div class="main__two-choices" id="text-input">
+            <div class="main__two-choices" id="text-input-7">
               <input name="whoami" type="radio" id="whoami1" class="main__hidden-choice"  value="solo">
               <label for="whoami1" class="main__choice">я Частное лицо</label>
               <input name="whoami" type="radio" id="whoami2" class="main__hidden-choice"  value="company">
@@ -206,7 +207,7 @@
           <fieldset class="main__fieldset main__fieldset_columns">
             <div class="input-text input-text_direction">
               <div class="input-text__placeholder input-text__placeholder_normal">
-                <label for="select1">Выбрать компанию</label>
+                <label>Выбрать компанию</label>
               </div>
               <div class="itc-select" id="select-2">
                 <!-- Кнопка для открытия выпадающего списка -->
@@ -225,7 +226,7 @@
             </div>
             <div class="input-text input-text_direction">
               <div class="input-text__placeholder input-text__placeholder_normal input-text__placeholder_unavailable">
-                <label for="select1">Должность</span>
+                <label>Должность</label>
               </div>
               <input type="text" class="input-text__textfield input-text__textfield_with-placeholder" id="input-text"/>
               <span class="text-input-error main__input-error"></span>
@@ -234,7 +235,7 @@
           </fieldset>
           <fieldset class="main__fieldset main__fieldset_column main__fieldset_margin-for-bigtext">
             <div class="input-text">
-              <textarea type="text" class="input-text__big-textfield" placeholder="Как ты о нас узнал?"></textarea>
+              <textarea class="input-text__big-textfield" placeholder="Как ты о нас узнал?"></textarea>
               <button aria-label="Очистить" class="input-text__delete"></button>
             </div>
           </fieldset>

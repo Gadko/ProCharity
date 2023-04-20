@@ -83,8 +83,14 @@ module.exports = {
       filename: 'competitions.html',
       template: './src/competitions.html'
     }),
+    new HtmlWebpackPlugin({
+      filename: 'notifications.html',
+      template: './src/notifications.html'
+    }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),
 
   ]
 } 
+
+_notifications-block/main_notifications.css
