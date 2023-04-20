@@ -92,5 +92,3 @@ module.exports = {
 
   ]
 } 
-
-_notifications-block/main_notifications.css
