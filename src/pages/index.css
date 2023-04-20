@@ -25,7 +25,7 @@
 @import url(../blocks/regemailinfo/regemailinfo.css);
 @import url(../blocks/regemailinfo/__holder/regemailinfo__holder.css);
 @import url(../blocks/regemailinfo/__email/regemailinfo__email.css);
-/*@import url(../blocks/regemailinfo//__header/regemailinfo__header.css);*/
+@import url(../blocks/regemailinfo/__header/regemailinfo__header.css);
 @import url(../blocks/regemailinfo/__image/regemailinfo__image.css);
 @import url(../blocks/regemailinfo/__text-holder/regemailinfo__text-holder.css);
 @import url(../blocks/regemailinfo/__text/regemailinfo__text.css);
@@ -65,6 +65,7 @@
 @import url(../blocks/input-text/__two-additions-grid/_for-placeholder/input-text__two-additions-grid_for-placeholder.css);
 @import url(../blocks/input-text/__question/input-text__question.css);
 @import url(../blocks/input-text/__question/_for-grid/input-text__question_for-grid.css);
+@import url(../blocks/input-text/__question/_notifications/input-text__question_notifications.css);
 @import url(../blocks/input-text/__hide-show-text/input-text__hide-show-text.css);
 @import url(../blocks/input-text/__delete/input-text__delete.css);
 @import url(../blocks/input-text/__delete/_for-grid/input-text__delete_for-grid.css);
@@ -288,3 +289,5 @@
 @import url(../blocks/itc-custom-select/__option/itc-select__option.css);
 @import url(../blocks/itc-custom-select/__option/_selected/itc-select__option_selected.css);
 @import url(../blocks/itc-custom-select/__options/itc-select__options.css);
+
+@import url(../blocks/main/__paragraph/_profile-text/main__paragraph_profile-text.css);

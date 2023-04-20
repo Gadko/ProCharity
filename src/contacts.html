@@ -23,10 +23,10 @@
       <div class="sidebar">
         <ul class="stepper">
           <li class="breadcrumbs"><span><a class="link" href="#">Личный кабинет</a></span> / Мои данные</li>
-          <li class="stepper__step-mobile stepper__step-mobile_disabled">
+          <li class="stepper__step-mobile stepper__step-mobile_active">
             <a
               href="#"
-              class="stepper__step stepper__step-start stepper__step_active"
+              class="stepper__step stepper__step_active"
             >
               Личные данные
             </a>
@@ -102,7 +102,7 @@
               </div>
             </div>
           </fieldset>
-          <p class="main__paragraph">Фонды увидят эти данные на твоей странице</p>
+          <p class="main__paragraph main__paragraph_notifications">Фонды увидят эти данные на твоей странице</p>
           <fieldset class="main__fieldset main__fieldset_columns">
             <div class="input-text input-text_direction">
               <div class="input-text__placeholder input-text__placeholder_normal">
@@ -171,7 +171,12 @@
               <span class="text-input-error main__input-error"></span>
               <div class="input-text__two-additions-grid">
                 <button aria-label="Очистить" class="input-text__delete input-text__delete_for-grid"></button>
-                <button aria-label="Подсказка" class="input-text__question input-text__question_for-grid"></button>
+                <button aria-label="Подсказка" type="button" class="input-text__question input-text__question_for-grid">
+                  <span class="tooltip-text"
+                  >Если тебе удобнее, чтобы представители фондов писали в
+                      Telegram, укажи свой ник (без @ и url)</span
+                  >
+                </button>
               </div>
             </div>
             <div class="input-text input-text_direction">
