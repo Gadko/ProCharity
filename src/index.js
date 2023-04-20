@@ -8,6 +8,10 @@ import {
   buttonMobileClose,
   buttonMobileOpen,
   editAvatar,
+  popupContacts,
+  openPopupContacts,
+  closePopupContacts,
+  savePopupContacts
 } from "./utils/constants.js";
 
 import Textarea from "./components/Textarea.js";
@@ -148,6 +152,20 @@ if (window.location.pathname === "/competitions.html") {
 }
 
 if (window.location.pathname === "/contacts.html") {
+
+  openPopupContacts.addEventListener('click', (e) => {
+    e.preventDefault();
+    popupContacts.classList.add('popup_opened')
+  })
+  closePopupContacts.addEventListener('click', (e) => {
+    e.preventDefault();
+    popupContacts.classList.remove('popup_opened')
+  })
+  savePopupContacts.addEventListener('click', (e) => {
+    e.preventDefault();
+    popupContacts.classList.remove('popup_opened')
+  })
+
   const select1 = new ItcCustomSelect("#select-1");
 
   const select2 = new ItcCustomSelect("#select-2");

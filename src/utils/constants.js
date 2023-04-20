@@ -5,6 +5,12 @@ export const inputMobile = document.querySelector('.competitions-mobile');
 export const buttonMobileClose = document.querySelector('.competitions-mobile__close')
 export const buttonMobileOpen = document.querySelector('.input-text');
 
+
+export const popupContacts = document.querySelector('.popup_type_contacts')
+export const openPopupContacts = document.querySelector('.link_all-block-size')
+export const closePopupContacts = document.querySelector('.popup__close-cross')
+export const savePopupContacts = document.querySelector('.popup__btn_save')
+
 export const whitelistValue = [
   {
       value: 'Социальные сети',
