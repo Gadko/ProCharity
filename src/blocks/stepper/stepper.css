@@ -11,6 +11,7 @@
   counter-reset: section;
   margin: 0;
   position: relative;
+  box-sizing: border-box;
 }
 
 @media (max-width:1024px) {
