@@ -9,7 +9,6 @@
 {
     .main {
         margin: 0 auto;
-        flex-direction: column;
         max-width: calc(100% - 48px);
     }
 }

@@ -8,7 +8,7 @@
     border-radius: 8px;
     padding: 16px;
     box-sizing: border-box;
-    align-items: center;
+    align-items: flex-start;
     margin: 32px 0 0;
 }
 

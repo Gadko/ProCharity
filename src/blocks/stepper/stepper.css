@@ -20,7 +20,6 @@
     flex-direction: row;
     border: none;
     width: 100%;
-    padding: 0 0 8px 0; 
-    box-sizing: border-box;
+    padding: 0 0 8px 0;
   }
 }
