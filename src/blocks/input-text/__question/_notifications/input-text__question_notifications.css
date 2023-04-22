@@ -15,6 +15,11 @@
     .input-text__question_notifications:hover .tooltip-text_notifications-block::after {
         top: -24px;
         right: 26px;
-        border-color: transparent transparent #fff transparent;
+    }
+}
+
+@media (max-width: 370px){
+    .input-text__question_notifications:hover .tooltip-text_notifications-block::after {
+        right: 0px;
     }
 }

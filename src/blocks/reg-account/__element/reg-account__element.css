@@ -39,9 +39,3 @@
         min-height: 288px;
     }
 }
-
-@media screen and (max-width: 360px){
-    .reg-account__element  {
-        min-width: 360px;
-    }
-}

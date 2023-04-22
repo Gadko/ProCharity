@@ -14,3 +14,11 @@
         top: 28px;
     }
 }
+
+@media (max-width: 370px){
+    .tooltip-text_notifications-block {
+        max-width: 280px;
+        min-width: 280px;
+        height: fit-content;
+    }
+}
