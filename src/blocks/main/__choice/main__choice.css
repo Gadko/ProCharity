@@ -14,10 +14,15 @@
     text-transform: uppercase;
     color: #048AA7;
     padding: 16px 32px;
+    cursor: pointer;
 }
 
 .main__choice:first-of-type{
     border-left: none;
+}
+
+.main__choice:hover {
+    opacity: .8;
 }
 
 @media screen and (max-width: 1024px) {
