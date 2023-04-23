@@ -1,7 +1,0 @@
-.checkbox__checkbox-hidden {
-    display: none;
-}
-
-.checkbox__checkbox-hidden:checked+label {
-    background-image: url(../../../images/checkbox.png);
-}

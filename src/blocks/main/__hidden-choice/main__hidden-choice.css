@@ -1,8 +1,0 @@
-.main__hidden-choice {
-    display: none;
-}
-
-.main__hidden-choice:checked+label {
-    background: #72D0DC;
-    color: #FFFFFF;
-}
