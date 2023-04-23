@@ -24,7 +24,6 @@
 
 @media (max-width: 1024px){
     .tooltip-text {
-        max-width: 320px;
         min-width: 312px;
     }
 }

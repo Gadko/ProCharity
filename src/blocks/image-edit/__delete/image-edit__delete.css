@@ -13,4 +13,5 @@
     visibility: hidden;
     opacity: 0;
     transition: .5s ease-in;
+    color: #00000000;
 }

@@ -19,3 +19,7 @@
 	border: none;
 	margin: 0;
 }
+
+.add-file__btn:hover {
+	opacity: .8;
+}

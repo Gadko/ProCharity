@@ -185,6 +185,7 @@
 @import url(../blocks/telegram-block/__button-text/telegram-block__button-text.css);
 @import url(../blocks/telegram-block/__button/telegram-block__button.css);
 @import url(../blocks/telegram-block/telegram-block.css);
+@import url(../blocks/telegram-block/__caption/telegram-block__caption.css);
 
 /* MOTIVATION START */
 @import url(../blocks/motivation/motivation.css);
@@ -293,3 +294,5 @@
 @import url(../blocks/itc-custom-select/__options/itc-select__options.css);
 
 @import url(../blocks/main/__paragraph/_profile-text/main__paragraph_profile-text.css);
+
+@import url(../blocks/main/__fieldset/_competitions-button/main__fieldset_competitions-button.css);

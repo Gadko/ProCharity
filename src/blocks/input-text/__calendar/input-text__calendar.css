@@ -11,3 +11,7 @@
     background-position: center;
     cursor: pointer;
 }
+
+.input-text__calendar:hover {
+    opacity: .8;
+}

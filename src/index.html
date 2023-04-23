@@ -52,15 +52,15 @@
           </div>
           <!--Статус. Меняется при добавлении соответствующих модификаторов для status__container и status__text. На этой странице не нужен, но я добавил пока что сюда, что бы использовать на других страницах-->
           <div class="status status_dusabled">
-            <h3 class="status__title">Статус профиля</h3>
+            <h2 class="status__title">Статус профиля</h2>
             <div class="status__container status__container_blue">
               <p class="status__text status__text_edits"></p>
-              <button class="status__question"></button>
+              <button type="button" class="status__question"></button>
             </div>
           </div>
           <!--Прогресс бар, на этой странице не нужен, но я добавил пока что сюда, что бы использовать на других страницах-->
           <div class="progress progress_dusabled">
-            <h3 class="progress__title">Профиль заполнен на 66%</h3>
+            <h2 class="progress__title">Профиль заполнен на 66%</h2>
             <div class="progress__bar-container">
               <div class="progress__bar">
                 <div class="progress__fullness"></div>
@@ -97,9 +97,9 @@
                 <span
                   class="text-input-error main__input-error main__input-error_active"
                 ></span>
-                <button
+                <button type="button"
                   aria-label="Очистить"
-                  class="input-text__delete"
+                  class="input-text__delete" type="button"
                 ></button>
               </div>
               <div class="input-text input-text_direction">
@@ -112,9 +112,9 @@
                   id="text-input-2"
                   required
                 />
-                <button
+                <button  type="button"
                   aria-label="Очистить"
-                  class="input-text__delete"
+                  class="input-text__delete" type="button"
                 ></button>
                 <span
                   class="text-input-error main__input-error main__input-error_active"
@@ -124,7 +124,7 @@
             <p class="main__paragraph">
               Контакты будут видны фондам, которые выберут тебя исполнителем
               задания
-            </p>
+            <p/>
             <fieldset class="main__fieldset main__fieldset_columns">
               <div class="input-text input-text_direction">
                 <input
@@ -136,9 +136,9 @@
                   id="text-input-3"
                   required
                 />
-                <button
+                <button type="button"
                   aria-label="Очистить"
-                  class="input-text__delete"
+                  class="input-text__delete" type="button"
                 ></button>
                 <span
                   class="text-input-error main__input-error main__input-error_active"
@@ -155,9 +155,9 @@
                   required
                 />
                 <div class="input-text__two-additions-grid">
-                  <button
+                  <button type="button"
                     aria-label="Очистить"
-                    class="input-text__delete input-text__delete_for-grid"
+                    class="input-text__delete input-text__delete_for-grid" type="button"
                   ></button>
                   <button
                     type="button"
@@ -190,7 +190,7 @@
                   id="text-input-5"
                   required
                 />
-                <button class="input-text__hide-show-text"></button>
+                <button type="button" class="input-text__hide-show-text"></button>
                 <span
                   class="text-input-error main__input-error main__input-error_active"
                 ></span>
@@ -204,7 +204,7 @@
                   id="text-input-6"
                   required
                 />
-                <button class="input-text__hide-show-text"></button>
+                <button type="button" class="input-text__hide-show-text"></button>
                 <span
                   class="text-input-error main__input-error main__input-error_active"
                 ></span>
@@ -224,28 +224,28 @@
                 ></label>
                 <span
                   >Соглашаюсь с
-                  <a class="link" href="#">правилами сайта</a></span
+                  <a class="link" href="#" target="_blank" >правилами сайта</a></span
                 >
               </div>
             </fieldset>
             <fieldset class="main__btns">
-              <button type="button" class="btn btn__reset">Назад</button>
               <button
-                type="button"
-                class="btn btn__registration btn_status_disabled"
-                disabled
+                      type="submit"
+                      class="btn btn__registration btn_status_disabled"
+                      disabled
               >
                 Зарегистрироваться
               </button>
+              <button type="button" class="btn btn__reset">Назад</button>
             </fieldset>
           </form>
         </div>
         <!--Блок статуса для мобильной версии, скрывается при добавлении status_dusabled. На этой странице не нужен, но я добавил пока что сюда, что бы потом использовать на других страницах.-->
         <div class="status status_mobile status_dusabled">
-          <h3 class="status__title">Статус профиля</h3>
+          <h2 class="status__title">Статус профиля</h2>
           <div class="status__container status__container_blue">
             <p class="status__text status__text_edits"></p>
-            <button class="status__question"></button>
+            <button type="button" class="status__question"></button>
           </div>
         </div>
         <!--Конец блока статуса для моб. версии-->

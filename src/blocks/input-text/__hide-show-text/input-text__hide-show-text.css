@@ -13,3 +13,7 @@
     background-position: center;
     cursor: pointer;
 }
+
+.input-text__hide-show-text:hover {
+    opacity: .8;
+}

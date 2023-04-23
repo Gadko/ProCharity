@@ -16,3 +16,7 @@
     max-width: fit-content;
     border: none;
 }
+
+.popup__btn:hover {
+    opacity: .8;
+}
