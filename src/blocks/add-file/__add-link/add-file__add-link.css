@@ -1,0 +1,13 @@
+.add-file__add-link {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 4px;
+
+    margin-bottom: 32px;
+    cursor: pointer;
+
+    background-color: transparent;
+    border: 0;
+}

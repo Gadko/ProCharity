@@ -44,7 +44,48 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
+      filename: 'index.html',
       template: './src/index.html'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'password.html',
+      template: './src/password.html'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'reg-account.html',
+      template: './src/reg-account.html'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'reg-email-info.html',
+      template: './src/reg-email-info.html'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'social.html',
+      template: './src/social.html'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'motivation.html',
+      template: './src/motivation.html'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'portfolio.html',
+      template: './src/portfolio.html'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'profile.html',
+      template: './src/profile.html'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'contacts.html',
+      template: './src/contacts.html'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'competitions.html',
+      template: './src/competitions.html'
+    }),
+    new HtmlWebpackPlugin({
+      filename: 'notifications.html',
+      template: './src/notifications.html'
     }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin(),

@@ -1,0 +1,16 @@
+.competitions-mobile__chip {
+    font-family: "Arial", sans-serif;
+    max-height: 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.15px;
+    color: #58646a;
+    padding: 8px 12px;
+    margin: 0;
+    margin-bottom: 6px;
+    width: max-content;
+    border: 1px solid #c7d0da;
+    border-radius: 20px;
+}

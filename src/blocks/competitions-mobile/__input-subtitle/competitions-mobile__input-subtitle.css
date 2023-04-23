@@ -1,0 +1,11 @@
+.competitions-mobile__input-subtitle {
+    font-family: "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.12;
+    color: #58646a;
+    display: block;
+    cursor: pointer;
+    padding: 8px;
+}

@@ -1,0 +1,15 @@
+.main {
+    display: flex;
+    max-width: 741px;
+    width: 100%;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1024px)
+{
+    .main {
+        margin: 0 auto;
+        flex-direction: column;
+        max-width: calc(100% - 48px);
+    }
+}

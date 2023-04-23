@@ -1,0 +1,24 @@
+.tooltip-text_notifications-block{
+    min-width: 320px;
+    max-width: 352px;
+    bottom: -72px;
+    left: -20px;
+    z-index: 2;
+}
+
+@media (max-width: 1024px){
+    .tooltip-text_notifications-block {
+        max-width: 312px;
+        min-width: 312px;
+        left: -258px;
+        top: 28px;
+    }
+}
+
+@media (max-width: 370px){
+    .tooltip-text_notifications-block {
+        max-width: 280px;
+        min-width: 280px;
+        height: fit-content;
+    }
+}

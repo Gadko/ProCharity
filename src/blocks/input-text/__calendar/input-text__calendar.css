@@ -1,0 +1,13 @@
+.input-text__calendar {
+    position: relative;
+    max-width: 24px;
+    max-height: 24px;
+    top: 12px;
+    right: -12px;
+    padding: 0;
+    border: none;
+    background: none;
+    background-image: url(../../../images/calendar.png);
+    background-position: center;
+    cursor: pointer;
+}

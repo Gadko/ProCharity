@@ -1,0 +1,14 @@
+.reg-account__text-link{
+    color: rgba(125, 205, 215, 1);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.reg-account__text-link:hover{
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+.reg-account__text-link:active{
+    color: rgba(55, 65, 70, 1);
+}
+

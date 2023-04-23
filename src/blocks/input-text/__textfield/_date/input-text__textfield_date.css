@@ -1,0 +1,7 @@
+.input-text__textfield_date {
+    min-height: 20px;
+}
+
+.input-text__textfield_date::-webkit-calendar-picker-indicator {
+    display: none;
+}

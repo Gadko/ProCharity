@@ -1,0 +1,23 @@
+.btn {
+    cursor: pointer;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    padding: 20px 32px;
+    width: 100%;
+    justify-content: center;
+    max-width: fit-content;
+}
+
+@media screen and (max-width: 1024px) {
+    .btn {
+        max-width: 100%;
+    }
+}

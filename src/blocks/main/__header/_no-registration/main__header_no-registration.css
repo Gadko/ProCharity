@@ -1,0 +1,5 @@
+@media screen and (max-width: 1024px) {
+    .main__header_no-registration {
+        margin-top: 16px;
+    }
+}

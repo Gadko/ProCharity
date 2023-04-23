@@ -1,0 +1,25 @@
+.input-text__question_notifications{
+    top: 0;
+    right: -7px;
+    background-position: right;
+    position: relative;
+}
+
+.input-text__question_notifications:hover .tooltip-text_notifications-block::after {
+    top: -26px;
+    right: 272px;
+    border-color: transparent transparent #fff transparent;
+}
+
+@media (max-width: 1024px){
+    .input-text__question_notifications:hover .tooltip-text_notifications-block::after {
+        top: -24px;
+        right: 26px;
+    }
+}
+
+@media (max-width: 370px){
+    .input-text__question_notifications:hover .tooltip-text_notifications-block::after {
+        right: 0px;
+    }
+}

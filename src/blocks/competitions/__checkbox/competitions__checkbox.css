@@ -1,0 +1,20 @@
+.competitions__checkbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px 12px 8px 16px;
+    box-sizing: border-box;
+    width: 100%;
+
+    background: #FFFFFF;
+    
+}
+
+.competitions__checkbox input[type=checkbox] {
+    pointer-events: none;
+}
+
+.competitions__checkbox:hover {
+    background-color: #F5F6F8;
+}

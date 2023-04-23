@@ -1,0 +1,16 @@
+.competitions-mobile__acoprd-content {
+  cursor: pointer;
+  display: block;
+  padding: 11px 8px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.12;
+  color: #58646a;
+  position: relative;
+  border-bottom: 0.5px solid #A0ABB5;
+}

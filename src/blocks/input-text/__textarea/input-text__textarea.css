@@ -1,0 +1,27 @@
+.input-text__textarea {
+  width: 100%;
+  background: #F1F5F9;
+  border: none;
+  border-radius: 6px;
+  overflow: hidden;
+  resize: none;
+  box-sizing: border-box;
+  padding: 23px 48px 25px 16px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #374045;
+}
+
+.input-text__textarea:focus {
+  outline: none;
+}
+
+@media (max-width:1024px) {
+  .input-text__textarea {
+    overflow-y: scroll;
+    max-height: 248px;
+  }
+}

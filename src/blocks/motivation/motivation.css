@@ -1,0 +1,13 @@
+.motivation {
+  display: flex;
+  justify-content: center;
+  padding: 64px 24px 0;
+  gap: 32px;
+}
+
+@media (max-width:1024px) {
+  .motivation {
+    display: block;
+    padding: 24px 0 0;
+  }
+}

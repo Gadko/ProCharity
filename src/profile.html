@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProCharity</title>
+    <link rel="alternate" hreflang="Ru" href="#" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="profile">
+        <div class="sidebar">
+          <ul class="stepper">
+            <li class="breadcrumbs">
+              <span><a class="link" href="#">Личный кабинет</a></span> /
+              Настройки
+            </li>
+            <li class="stepper__step-mobile">
+              <a href="#" class="stepper__step"> Уведомления </a>
+            </li>
+            <li class="stepper__step-mobile stepper__step-mobile_active">
+              <a href="#" class="stepper__step stepper__step_active">
+                Профиль
+              </a>
+            </li>
+            <li class="stepper__step-mobile">
+              <a href="#" class="stepper__step"> Смена пароля </a>
+            </li>
+          </ul>
+          <div class="stepper__mobile-description">
+            <p class="stepper__mobile-description-name">Настройки</p>
+          </div>
+          <!--Статус. Меняется при добавлении соответствующих модификаторов для status__container и status__text. На этой странице не нужен, но я добавил пока что сюда, что бы использовать на других страницах-->
+          <div class="status">
+            <h3 class="status__title">Статус профиля</h3>
+            <div class="status__container status__container_orange">
+              <p class="status__text status__text_confirmed"></p>
+              <button class="status__question"></button>
+            </div>
+          </div>
+        </div>
+        <div class="main main_password-block">
+          <h1 class="main__header main__header_no-registration">Профиль</h1>
+          <p class="main__paragraph main__paragraph_notifications">
+            Приватный профиль будет скрыт для неавторизованных пользователей
+            в списке волонтеров и в поиске по сайту
+          </p>
+          <div class="checkbox checkbox_profile">
+            <input
+              type="checkbox"
+              class="checkbox__checkbox-hidden"
+              id="checkbox-hidden"
+              required
+            />
+            <label
+              for="checkbox-hidden"
+              class="checkbox__checkbox-on-screen"
+            ></label>
+            <span> Мой профиль виден только пользователям ProCharity </span>
+          </div>
+          <p class="main__paragraph main__paragraph_profile-text">
+            Если ты не хочешь больше быть волонтером ProCharity, можешь
+            заблокировать свой профиль. Это значит:
+          </p>
+          <ul class="profile__list">
+            <li class="profile__row">ты не сможешь откликаться на задания;</li>
+            <li class="profile__row">
+              твой профиль будет скрыт для всех пользователей
+            </li>
+            <li class="profile__row">
+              ты не будешь получать от нас никаких писем.
+            </li>
+          </ul>
+          <p class="main__paragraph main__paragraph_profile">
+            Чтобы изменить этот статус, убери галочку в чекбоксе ниже и нажми
+            "Сохранить"
+          </p>
+          <div class="checkbox checkbox_profile">
+            <input
+              type="checkbox"
+              class="checkbox__checkbox-hidden"
+              id="checkbox-hidden-2"
+              required
+            />
+            <label
+              for="checkbox-hidden"
+              class="checkbox__checkbox-on-screen"
+            ></label>
+            <span> Заблокировать профиль </span>
+          </div>
+          <div class="main__btns main__btns_password-block">
+            <button type="submit" class="btn btn__registration">
+              Сохранить
+            </button>
+          </div>
+        </div>
+        <div class="status status_mobile">
+          <h3 class="status__title">Статус профиля</h3>
+          <div class="status__container status__container_blue">
+            <p class="status__text status__text_edits"></p>
+            <button class="status__question"></button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

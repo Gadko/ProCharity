@@ -1,0 +1,22 @@
+.competitions-mobile {
+        background-color: #F1F5F9;
+        position: fixed;
+        display: flex;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 2;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0s, opacity 0.5s linear;
+}
+
+@media screen and (min-width: 1024px) {
+    .competitions-mobile {
+      display: none;
+    }
+  }

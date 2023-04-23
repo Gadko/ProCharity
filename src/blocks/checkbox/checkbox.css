@@ -1,0 +1,11 @@
+.checkbox {
+    display: flex;
+    align-items: center;
+    margin: 32px auto 0px 0px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #58646A;
+}
