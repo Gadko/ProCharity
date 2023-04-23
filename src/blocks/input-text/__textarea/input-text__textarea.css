@@ -22,6 +22,5 @@
 @media (max-width:1024px) {
   .input-text__textarea {
     overflow-y: scroll;
-    max-height: 248px;
   }
 }
