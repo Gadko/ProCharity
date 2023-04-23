@@ -10,3 +10,7 @@
 	cursor: pointer;
 	outline: inherit;
 }
+
+.progress__reload:hover {
+	opacity: .8;
+}
