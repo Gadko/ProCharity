@@ -1,0 +1,15 @@
+.header__button-user {
+    width: 48px;
+    margin-left: 2px;
+    padding: 0;
+    background: #73B6C0;
+    border-radius: 0px 24px 24px 0px;   
+    border: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .header__button-user {
+    width: 32px;
+    height: 32px;
+    }
+}

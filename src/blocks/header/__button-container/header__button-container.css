@@ -1,0 +1,13 @@
+.header__button-container {
+    width: 218px;
+    height: 48px;
+    display: flex;
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .header__button-container {
+    width: 66px;
+    height: 32px;
+    }
+}

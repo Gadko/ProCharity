@@ -8,6 +8,53 @@
     <link rel="alternate" hreflang="Ru" href="#" />
   </head>
   <body class="page">
+    <header class="header">
+      <div class="header__container">
+        <button class="header__burger"></button>
+        <img 
+          class="header__logo" 
+          src="<%=require('./images/logo.svg')%>" 
+          alt="Логотип">
+          <div class="header__nav-container">
+            <ul class="header__menu">
+              <li class="header__nav">
+                <a class="header__link" href="#">О проекте</a>
+              </li>
+              <li class="header__nav">
+                <a class="header__link" href="#">Задания</a>
+                </li>
+              
+              <li class="header__nav">
+                <a class="header__link" href="#">Волонтерам</a>
+              </li>
+              
+              <li class="header__nav">
+                <a class="header__link" href="#">Для НКО</a>
+              </li>
+              
+              <li class="header__nav">
+                <a class="header__link" href="#">Бизнесу</a>
+              </li>
+              
+              <li class="header__nav">
+                <a class="header__link" href="#">FAQ</a>
+              </li>
+              
+            </ul>
+            <button class="header__search">
+            </button>
+          </div>
+          <div class="header__button-container">
+            <button class="header__button-join"></button>
+            <button class="header__button-user">
+              <img 
+                class="header__button-img" 
+                alt="профиль" 
+                src="<%=require('./images/button-user.svg')%>">
+            </button>
+          </div>
+      </div>
+    </header>
     <main>
 
 

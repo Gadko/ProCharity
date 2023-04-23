@@ -1,0 +1,5 @@
+.header {
+    background-color: rgba(125, 205, 215, 1);
+    display: flex;
+    justify-content: space-around
+}
