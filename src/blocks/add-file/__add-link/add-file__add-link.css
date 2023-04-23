@@ -11,3 +11,7 @@
     background-color: transparent;
     border: 0;
 }
+
+.add-file__add-link:hover {
+    opacity: .8;
+}

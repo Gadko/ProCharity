@@ -1,5 +1,9 @@
 .image-edit__delete_active {
     visibility: visible;
     opacity: 1;
-    transition: visibility, opacity .5s linear;
+    transition: visibility, opacity .2s linear;
+}
+
+.image-edit__delete_active:hover {
+    opacity: .8;
 }

@@ -11,4 +11,9 @@
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;    
+    color: #00000000;
+}
+
+.popup__close-cross:hover {
+    opacity: .8;
 }

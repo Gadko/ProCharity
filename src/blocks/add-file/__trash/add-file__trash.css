@@ -8,3 +8,7 @@
 
     cursor: pointer;
 }
+
+.add-file__trash:hover {
+    opacity: .8;
+}

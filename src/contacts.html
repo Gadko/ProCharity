@@ -15,7 +15,7 @@
         <form id="imagePopup" class="popup__fieldset popup__fieldset_image-popup">
           <img alt="Картинка" src="#" class="popup__image">
           <input type="button" class="popup__btn popup__btn_save" id="sendImage" value="Сохранить">
-          <input type="button" class="popup__close-cross" value="">
+          <input type="button" class="popup__close-cross" value="closeImage">
         </form>
       </div>
     </div>
@@ -93,7 +93,7 @@
                   </div>
                   
                     <label for="editImage" class="link link_all-block-size">добавить фотографию</label>
-                    <input type="button" value="" class="image-edit__delete image-edit__delete_active">
+                    <input type="button" value="deleteAvatar" class="image-edit__delete image-edit__delete_active">
                   
               </div>
               <div class="image-edit__image-rules">
@@ -105,13 +105,13 @@
           <p class="main__paragraph main__paragraph_notifications">Фонды увидят эти данные на твоей странице</p>
           <fieldset class="main__fieldset main__fieldset_columns">
             <div class="input-text input-text_direction">
-              <div class="input-text__placeholder input-text__placeholder_normal">
+              <div class="input-text__placeholder input-text__placeholder_small">
                 <span>Имя</span>
               </div>
               <input type="text" class="input-text__textfield input-text__textfield_with-placeholder" pattern="[^0-9]*"
                 data-error-message="Может содержать только буквы и специальные символы" id="text-input" required/>
                 <span class="text-input-error main__input-error main__input-error_active">Может содержать только буквы и специальные символы</span>
-              <button aria-label="Очистить" type="button" class="input-text__delete"></button>
+              <button aria-label="Очистить" class="input-text__delete" type="button"></button>
             </div>
             <div class="input-text input-text_direction">
               <div class="input-text__placeholder input-text__placeholder_small">
@@ -140,7 +140,7 @@
                 <input type="text" class="input-text__textfield input-text__textfield_with-placeholder" pattern="[^0-9]*"
                 data-error-message="Может содержать только буквы и специальные символы" id="text-input-3" required/> <!-- Есть город в названии которого есть знаки припинания) -->
                 <span class="text-input-error main__input-error"></span>
-                <button aria-label="Очистить" type="button" class="input-text__delete"></button>
+                <button aria-label="Очистить" class="input-text__delete" type="button"></button>
               </div>
           </fieldset>
           <p class="main__paragraph">Контакты будут видны фондам, которые выберут тебя исполнителем задания</p>
@@ -152,7 +152,7 @@
               <input type="email" class="input-text__textfield input-text__textfield_with-placeholder" 
               data-error-message="Проверь электронную почту" id="text-input-4"/>
               <span class="text-input-error main__input-error"></span>
-              <button aria-label="Очистить" type="button" class="input-text__delete"></button>
+              <button aria-label="Очистить" class="input-text__delete" type="button"></button>
             </div>
             <div class="input-text input-text_direction">
               <div class="input-text__placeholder input-text__placeholder_small">
@@ -161,7 +161,7 @@
               <input type="text" class="input-text__textfield input-text__textfield_with-placeholder" id="text-input-5"
               data-error-message="Необходимо корректный номер телефона" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$">
               <span class="text-input-error main__input-error"></span>
-              <button aria-label="Очистить" type="button" class="input-text__delete"></button>
+              <button aria-label="Очистить" class="input-text__delete" type="button"></button>
             </div>
             <div class="input-text input-text_direction">
               <div class="input-text__placeholder input-text__placeholder_small">
@@ -170,7 +170,7 @@
               <input type="text" class="input-text__textfield input-text__textfield_with-placeholder" id="text-input-6" pattern="^[A-Za-z\d_]{5,32}$" required>
               <span class="text-input-error main__input-error"></span>
               <div class="input-text__two-additions-grid">
-                <button aria-label="Очистить" type="button" class="input-text__delete input-text__delete_for-grid"></button>
+                <button aria-label="Очистить" class="input-text__delete input-text__delete_for-grid" type="button"></button>
                 <button aria-label="Подсказка" type="button" class="input-text__question input-text__question_for-grid">
                   <span class="tooltip-text"
                   >Если тебе удобнее, чтобы представители фондов писали в
@@ -235,13 +235,13 @@
               </div>
               <input type="text" class="input-text__textfield input-text__textfield_with-placeholder" id="input-text"/>
               <span class="text-input-error main__input-error"></span>
-              <button type="button" aria-label="Очистить" class="input-text__delete"></button>
+              <button aria-label="Очистить" class="input-text__delete" type="button"></button>
             </div>
           </fieldset>
           <fieldset class="main__fieldset main__fieldset_column main__fieldset_margin-for-bigtext">
             <div class="input-text">
               <textarea class="input-text__big-textfield" placeholder="Как ты о нас узнал?"></textarea>
-              <button type="button" aria-label="Очистить" class="input-text__delete"></button>
+              <button aria-label="Очистить" class="input-text__delete" type="button"></button>
             </div>
           </fieldset>
           <button type="submit" class="btn btn__registration">Сохранить</button>

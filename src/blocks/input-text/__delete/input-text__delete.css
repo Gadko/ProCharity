@@ -12,3 +12,7 @@
     background-position: center;
     cursor: pointer;
 }
+
+.input-text__delete:hover {
+    opacity: .8;
+}
