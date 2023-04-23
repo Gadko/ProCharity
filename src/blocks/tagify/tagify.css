@@ -21,6 +21,10 @@
   .tagify__dropdown{
     overflow: visible;
   }
+
+  .tagify__items {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  }
   
   .tagify__dropdown__itemsGroup {
     padding-left: 10px;

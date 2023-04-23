@@ -77,7 +77,7 @@ if (window.location.pathname === "/competitions.html") {
                             <span class="group__span">${group}</span>
                             <img src=${img} style="padding: 20px;">
                         
-                            <div class="items">
+                            <div class="tagify__items">
                               <div class="tagify_subgroup group_${group}">
                                   ${getCompetitiesForGroup(group)}
                               </div>
@@ -87,7 +87,7 @@ if (window.location.pathname === "/competitions.html") {
     });
 
     let resultHtml = `<div class="multi-level">
-                        <div class="items">
+                        <div class="tagify__items">
                           ${items.join("")}
                         </div>
                       </div
