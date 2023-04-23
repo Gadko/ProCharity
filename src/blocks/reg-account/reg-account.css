@@ -1,7 +1,6 @@
 .reg-account{
     margin: 0 auto;
     padding: 64px 0 120px;
-    min-width: 360px;
     max-width: 1440px;
     display: flex;
     flex-direction: column;

@@ -190,6 +190,7 @@
 /* MOTIVATION START */
 @import url(../blocks/motivation/motivation.css);
 @import url(../blocks/input-text/__textarea/input-text__textarea.css);
+@import url(../blocks/input-text/__textarea/_mobil/input-text__textarea_mobil.css);
 @import url(../blocks/input-text/__label/input-text__label.css);
 @import url(../blocks/input-text/__counter/input-text__counter.css);
 @import url(../blocks/input-text/__textfield/_social-block/input-text__textfield_social-block.css);
