@@ -5,12 +5,20 @@
     justify-content: center;
     padding: 64px 24px 0;
     gap: 32px;
+    margin: 0 17.8% 0 11.1%;
 }
+
+@media screen and (max-width: 1400px) {
+    .notifications {
+      margin: 0 8% 0 5%;
+    }
+  }
 
 @media (max-width:1024px) {
     .notifications {
         flex-direction: column;
         gap: 0;
-        padding: 24px 0 0;
+        padding-top: 24px;
+        margin: 0;
     }
 }

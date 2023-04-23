@@ -1,13 +1,21 @@
 .contacts {
-    display: flex;
-    justify-content: center;
-    padding: 64px 24px 0;
-    gap: 32px;
+  display: flex;
+  justify-content: center;
+  padding-top: 64px;
+  gap: 32px;
+  margin: 0 17.8% 0 11.1%;
+}
+
+@media screen and (max-width: 1400px) {
+  .contacts {
+    margin: 0 8% 0 5%;
+  }
 }
 
 @media (max-width:1024px) {
-    .contacts {
-      display: block;
-      padding: 24px 0 0;
-    }
+  .contacts {
+    display: block;
+    padding-top: 24px;
+    margin: 0;
   }
+}
