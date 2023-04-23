@@ -1,5 +1,0 @@
-.image-edit__delete_active {
-    visibility: visible;
-    opacity: 1;
-    transition: visibility, opacity .5s linear;
-}

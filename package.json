@@ -33,10 +33,6 @@
     "webpack-dev-server": "^4.13.2"
   },
   "dependencies": {
-    "@yaireo/tagify": "^4.17.8",
-    "core-js": "^3.30.0",
-    "cropper": "^4.1.0",
-    "cropperjs": "^1.5.13",
-    "mdn-data": "^2.0.31"
+    "core-js": "^3.30.0"
   }
 }

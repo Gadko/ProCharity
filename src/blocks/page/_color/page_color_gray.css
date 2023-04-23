@@ -1,9 +1,0 @@
-.page_color_gray {
-    background-color: rgba(241, 245, 249, 1);
-}
-
-@media screen and (max-width: 1024px) {
-    .page_color_gray  {
-        background-color: rgba(255, 255, 255, 1);
-    }
-}

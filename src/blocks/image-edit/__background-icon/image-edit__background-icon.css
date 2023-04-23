@@ -1,9 +1,0 @@
-.image-edit__background-icon {
-    background: none;
-    background-image: url(../../../images/camera.png);
-    background-position: center;
-    width: 24px;
-    height: 24px;
-    border: none;
-    z-index: 0;
-}

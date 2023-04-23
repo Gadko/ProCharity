@@ -1,9 +1,0 @@
-@media (max-width:1024px) {
-  .sidebar {
-    padding: 24px 24px 16px 24px;
-    position: sticky;
-    top: 0;
-    z-index: 2;
-    background-color: #fff;
-  }
-}

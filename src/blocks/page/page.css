@@ -1,11 +1,3 @@
 .page {
-    margin: 0 auto;
-    font-family: Arial, sans-serif;
-    min-width: 320px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    text-rendering: optimizeLegibility;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
